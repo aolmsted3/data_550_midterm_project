@@ -1,0 +1,56 @@
+---
+title: "Midterm Project Report - f75 Analysis"
+author: "Allison Olmsted, Hannah Posluszny, Elaina Sinclair"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, echo = FALSE, eval = TRUE, warning = FALSE, message = FALSE}
+
+here::i_am("report.Rmd")
+
+library(knitr)
+opts_chunk$set(
+  echo = FALSE, warning = FALSE, message = FALSE
+)
+
+```
+
+## Introduction
+
+#### Data Description
+The f75 dataset comes from a randomized trial testing whether a modified milk formula (f75) improves outcomes for children with severe acute malnutrition (first 6-months of data from year-long study). This report *...*
+
+```{r load-data}
+data <- read.csv(here::here("data/f75_interim.csv"))
+```
+
+## Results
+
+#### Enrollment Characteristics
+
+```{r table1}
+# Fill in code to read in Table 1 from output folder
+```
+
+*Description of Data.*
+
+#### Outcomes
+
+```{r figure}
+#| fig.align = "center",
+#| out.width = "700px"
+
+# Fill in code to read in Bar Chart/Figure from output folder
+
+```
+
+*Description of Data.*
+
+#### Model
+
+```{r table1}
+# Fill in code to read in regression model from output folder
+```
+
+*Description of Data.*

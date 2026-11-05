@@ -1,0 +1,514 @@
+subjid,site,agemons,sex,caregiver,other_carer,bfeeding,muac,weight,height,hmeasure,oedema,shock,iconsciousness,sev_pneumonia,diarrhoea,malaria,ofillness,fappetitte,milkfeed,tb,chronic_cough,sickle_cell,heart_disease,cerebral_palsy,enr_month,hiv_results,kwash,arm,muac1,weight1,oedema1,absence_who1,complete_f751,receive_f751,discharged2,muac2,weight2,height2,measure2,oedema2,withdraw2,days_stable
+1,A,13,Male,Mother,NA,Yes,11.1,7,70.5,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Positive,No,Modified F75 (intervention),12.5,6.6,None,Yes,Yes,No,Yes,11.9,7,70.6,NA,None,NA,3
+2,A,15,Female,Mother,NA,No,10.5,5.6,66.7,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),11.5,5.7,None,Yes,Yes,No,Yes,11.6,5.4,66.7,NA,None,NA,3
+3,A,26,Female,Mother,NA,No,15.4,10.8,84,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,Yes,Modified F75 (intervention),15,10.4,None,Yes,Yes,No,Yes,15.5,10.74,84.2,NA,None,NA,3
+4,A,14,Male,Mother,NA,Yes,10.9,5.7,66.6,Length,None,No,Yes,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,12.1,5.38,None,Yes,Yes,No,Yes,12.1,5.5,66.6,NA,None,NA,8
+5,A,21,Male,Other,NA,No,12.4,8.5,71.4,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,Yes,Standard F75,12,6.7,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,5
+6,A,12,Male,Mother,NA,Yes,10.7,5.8,65.9,Height,None,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2014-12-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Absconded,999
+7,A,26,Female,Mother,NA,No,11.4,8.96,84.2,Length,+,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Positive,Yes,Standard F75,13,8.6,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,2
+8,A,8,Male,Mother,NA,No,12.5,5.7,66.1,Height,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),12.4,6.1,None,Yes,Yes,No,Yes,12.7,6.06,66.1,NA,None,NA,3
+9,A,16,Male,Mother,NA,No,11.5,7.3,75.3,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),13.2,7.4,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,2
+10,A,16,Female,Grandparent,NA,No,11.6,7.01,74.9,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),12.8,7.1,None,Yes,Yes,No,Yes,12.1,7.08,74.9,NA,None,NA,2
+11,A,42,Female,Mother,NA,No,11.8,8.04,81,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2014-12-01,Positive,Yes,Standard F75,12.1,8.1,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+12,A,13,Male,Grandparent,NA,No,9.5,5.34,70.1,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,10.15,7.1,None,Yes,Yes,No,Yes,9.3,5.12,70.1,NA,None,NA,4
+13,A,42,Male,Mother,NA,No,10.9,9.98,87.1,Length,None,No,No,No,No,No,No,No,No,Yes,No,No,No,No,2014-12-01,Positive,No,Standard F75,10.4,9.7,None,Yes,Yes,No,Yes,11.1,9.82,87.1,NA,None,NA,2
+14,A,32,Male,Mother,NA,No,15.1,9.97,80.2,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Negative,Yes,Modified F75 (intervention),15.3,9.3,++,Yes,Yes,No,Yes,15,8.92,80.1,NA,None,NA,2
+15,A,18,Female,Mother,NA,No,13,8.04,74.2,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,Yes,Modified F75 (intervention),12.9,7.78,+,Yes,Yes,No,Yes,12.5,7.48,74,NA,None,NA,3
+16,A,7,Male,Mother,NA,Yes,11.3,6.86,69.6,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,11.6,6.64,None,Yes,Yes,No,Yes,11.2,6.49,68.1,Length,None,NA,2
+17,A,10,Female,Mother,NA,Yes,10.1,4.9,68.1,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Negative,No,Standard F75,9.7,5.02,None,Yes,Yes,No,Yes,11.1,4.88,68.1,NA,None,NA,2
+18,A,12,Female,Mother,NA,Yes,12.1,6.1,69,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Modified F75 (intervention),12.5,6.16,None,Yes,Yes,No,Yes,13,6.1,69,NA,None,NA,2
+19,A,54,Female,Mother,NA,No,11,10.6,95,Height,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2014-12-01,Positive,Yes,Standard F75,11.3,10.3,++,Yes,Yes,No,Yes,11.8,9.76,95,NA,None,NA,2
+20,A,16,Male,Mother,NA,No,11.6,7.03,75.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+21,A,26,Male,Mother,NA,No,11,7.6,77.4,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2014-12-01,Positive,Yes,Modified F75 (intervention),11.6,7.5,+,Yes,Yes,No,Yes,11.2,6.86,77.4,NA,None,NA,3
+22,A,27,Female,Mother,NA,No,13.5,9.68,79.1,Length,+,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2014-12-01,Positive,Yes,Standard F75,14,9.38,None,Yes,Yes,Yes,Yes,13.7,9.1,79.1,NA,None,NA,2
+23,A,10,Female,Mother,NA,Yes,10.3,4.9,63.4,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2014-12-01,Positive,No,Modified F75 (intervention),11,5,None,Yes,Yes,No,Yes,11.7,5.16,63.4,NA,None,NA,2
+24,A,27,Female,Mother,NA,No,11.4,9.46,81,Length,+++,No,No,No,No,No,No,No,No,No,No,No,Yes,No,2014-12-01,Negative,Yes,Standard F75,11,8.52,+,Yes,Yes,No,Yes,11.5,8,80,Length,None,NA,2
+25,A,13,Male,Mother,NA,Yes,12,6.82,72.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,12,6.96,None,Yes,Yes,No,Yes,11.8,6.9,72.8,Length,None,NA,1
+26,A,7,Female,Mother,NA,Yes,10.1,5.04,62.2,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+27,A,17,Male,Mother,NA,No,12.9,9.5,77.9,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),12.8,8.93,+,Yes,Yes,No,Yes,12.8,8.98,77.9,NA,None,NA,2
+28,A,13,Male,Mother,NA,Yes,10.4,5.46,68.3,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Standard F75,10,4.8,None,Yes,Yes,No,Yes,10,5.44,68.3,NA,None,NA,4
+29,A,11,Female,Mother,NA,Yes,9.9,4.6,66.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),10.4,5,None,Yes,Yes,No,Yes,10.4,5.16,66.5,NA,None,NA,5
+30,A,10,Female,Mother,NA,Yes,10,5.36,64,Length,+,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-01-01,Negative,Yes,Standard F75,10.3,5,None,Yes,Yes,No,Yes,10,4.8,64,Length,None,NA,3
+31,A,10,Female,Mother,NA,Yes,10.7,5.18,65.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+32,A,8,Male,Mother,NA,Yes,8,3.26,56,Length,None,No,No,No,No,No,No,No,No,No,Yes,No,Yes,Yes,2015-01-01,Negative,No,Modified F75 (intervention),8.8,3.5,None,Yes,Yes,No,Yes,9,3.42,56,Length,None,NA,6
+33,A,23,Female,Mother,NA,No,11.3,8.92,81.7,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-01-01,Positive,Yes,Modified F75 (intervention),11.2,8.72,+,Yes,Yes,No,Yes,11.6,8.66,81.7,Length,None,NA,4
+34,A,48,Male,Grandparent,NA,No,13.4,14.14,88.4,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,12.8,12.44,+,Yes,Yes,No,Yes,12.5,11.49,88.4,Length,None,NA,3
+35,A,62,Male,Mother,NA,No,8.9,6.22,87,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Standard F75,8.1,6.3,None,Yes,Yes,No,Yes,8.2,6.44,87,Length,None,NA,4
+36,A,11,Male,Mother,NA,Yes,11.1,5.62,65.1,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Positive,No,Standard F75,11,5.62,NA,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,1
+37,A,25,Female,Mother,NA,Yes,11.4,6.6,73.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),12.8,6.4,None,Yes,Yes,No,Yes,NA,6.56,73.5,Length,None,NA,2
+38,A,53,Male,Mother,NA,No,13.4,13.42,97.1,Height,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),11,11.2,+,Yes,Yes,Yes,Yes,9.8,11.4,97.1,Length,+,NA,12
+39,A,20,Female,Mother,NA,No,12.2,7.86,74.5,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,12,6.7,None,Yes,Yes,No,Yes,12.4,6.48,75,Length,None,NA,4
+40,A,36,Male,Mother,NA,No,12.8,11,85.5,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,12.9,10,None,Yes,Yes,No,Yes,12.5,9.7,85.7,Length,None,NA,3
+41,A,17,Female,Mother,NA,Yes,10.3,5.98,67.9,Length,None,No,No,No,No,No,Yes,No,No,Yes,No,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),10.5,6.02,None,Yes,Yes,No,Yes,10.5,6.1,68,NA,None,NA,2
+42,A,22,Male,Mother,NA,Yes,11.6,7.2,79.6,Length,None,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.9,8.24,None,Yes,Yes,No,Yes,11.9,8.1,79.6,NA,None,NA,2
+43,A,17,Male,Mother,NA,No,9.8,6.2,71.1,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-01-01,Unknown,No,Modified F75 (intervention),9.9,6.24,None,Yes,Yes,No,Yes,10.8,5.94,71.1,NA,None,NA,2
+44,A,11,Female,Mother,NA,Yes,9.5,5.04,67.1,Length,+,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,9.8,5.6,None,Yes,Yes,No,Yes,10,5.4,67.15,Height,None,NA,11
+45,A,51,Male,Mother,NA,No,15,14,92.6,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Positive,Yes,Modified F75 (intervention),13,12.74,++,Yes,Yes,No,Yes,13,11.6,92.6,NA,None,NA,2
+46,A,18,Female,Mother,NA,Yes,11.6,6.9,77.2,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Standard F75,11.7,7.2,None,Yes,Yes,No,Yes,12.4,7.36,77.2,NA,None,NA,3
+47,A,21,Female,Mother,NA,Yes,11,7.2,76,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),12,7.04,None,Yes,Yes,No,Yes,12.1,7.08,76,NA,None,NA,2
+48,A,13,Female,Mother,NA,Yes,12.9,7,73.6,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,12.4,7,None,Yes,Yes,No,Yes,13.1,7.48,74.5,NA,None,NA,9
+49,A,25,Male,Mother,NA,No,12.9,10.6,87.2,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),13,10.5,+,Yes,Yes,No,Yes,13.1,10.2,87.2,NA,None,NA,2
+50,A,18,Female,Mother,NA,No,9,4.8,72,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Standard F75,9.4,5.08,None,Yes,Yes,No,Yes,9.7,5.22,70.9,Length,None,NA,8
+51,A,15,Female,Mother,NA,No,10.2,5.3,66.5,Height,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,Yes,Modified F75 (intervention),10,5.2,+,Yes,Yes,No,Yes,9.8,4.8,66.5,Height,None,NA,2
+52,A,32,Male,Mother,NA,No,9.5,6.8,79.5,Height,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+53,A,15,Female,Mother,NA,Yes,9.5,4.8,64.7,Height,None,No,Yes,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-01-01,Unknown,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+54,A,25,Male,Mother,NA,No,10.3,6.44,75.3,Height,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,Yes,Modified F75 (intervention),9.8,6,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,6
+55,A,17,Female,Mother,NA,No,14.4,8.4,74.5,Height,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,14.4,8.04,+,Yes,Yes,No,Yes,13.8,7.66,74.3,Height,None,NA,3
+56,A,26,Female,Mother,NA,No,12.5,8.5,77.5,Height,++,No,No,No,No,No,No,Yes,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),12.7,7,+,Yes,Yes,No,Yes,12.8,7.66,77.5,Height,+,NA,3
+57,A,31,Male,Mother,NA,No,10.9,8.64,82.1,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+58,A,29,Female,Grandparent,NA,No,11.1,8.7,83.9,Height,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),11,7.74,++,Yes,Yes,No,Yes,10.8,7.64,84,NA,+,NA,7
+59,A,19,Female,Grandparent,NA,No,12.4,7.5,70.3,Length,+,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+60,A,12,Female,Mother,NA,Yes,10.9,6.04,71.1,Height,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+61,A,45,Male,Mother,NA,No,12.2,8.1,76.3,Length,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),11.5,8.08,++,Yes,Yes,Yes,Yes,11.4,7.3,76.5,Length,NA,NA,3
+62,A,28,Male,Mother,NA,No,12.1,8.2,82.8,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),12,8.4,None,Yes,Yes,No,Yes,12.4,8.24,83,Length,None,NA,2
+63,A,40,Male,Mother,NA,No,11.8,7.1,80.3,Height,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Standard F75,13,7.54,None,Yes,Yes,No,Yes,12,7.08,80.7,Length,None,NA,4
+64,A,28,Male,Mother,NA,No,11.4,7.8,81.3,Length,++,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),11.4,7.72,+,Yes,Yes,No,Yes,11.4,7.9,83,Length,++,NA,4
+65,A,22,Female,Mother,NA,No,12.1,9.62,79.2,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),12,5.36,+,Yes,Yes,No,Yes,12,8.56,80,Length,None,NA,2
+66,A,31,Male,Grandparent,NA,No,12,9.26,84.2,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+67,A,24,Female,Mother,NA,No,13,9.86,79.6,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,12.8,9.16,++,Yes,Yes,No,Yes,12.1,8.76,79.6,Length,None,NA,2
+68,A,6,Male,Mother,NA,Yes,11.5,4.18,58.6,Length,+,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-02-01,Positive,Yes,Standard F75,10.6,4.3,None,Yes,Yes,No,Yes,10.7,4.5,58.6,Length,None,NA,2
+69,A,13,Female,Grandparent,NA,No,11,6.12,72,Height,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Standard F75,11.3,6.08,None,Yes,Yes,No,Yes,11.1,5.96,72,NA,None,NA,2
+70,A,24,Male,Mother,NA,No,12,7.68,76.5,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),11.6,7.35,+,Yes,Yes,No,Yes,11.8,7,76,Length,None,NA,6
+71,A,29,Female,Mother,NA,No,9.9,6.24,78.5,Length,None,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+72,A,23,Female,Mother,NA,No,10.5,6.96,76.7,Length,None,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Standard F75,10.7,7.09,+,Yes,Yes,No,Yes,10.6,7.28,76.6,Length,None,NA,5
+73,A,21,Male,Mother,NA,No,13.1,10.3,85.1,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,12.5,9.14,+,Yes,Yes,No,Yes,12.1,8.8,85.1,Length,None,NA,2
+74,A,33,Female,Mother,NA,No,13.7,10.3,88,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),13.7,9.7,None,Yes,Yes,No,Yes,13.5,9.6,88,Length,None,NA,2
+75,A,7,Male,Mother,NA,No,10.7,4.52,58.5,Length,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,10.9,4.4,None,Yes,Yes,No,Yes,10.8,4.26,58.4,Length,None,NA,2
+76,A,14,Male,Mother,NA,Yes,13.9,9.01,73.3,Length,+,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),14.5,8.38,None,Yes,Yes,No,Yes,13.8,8.24,73.3,Length,None,NA,3
+77,A,16,Female,Mother,NA,Yes,11.1,7.8,73.2,Length,+,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),10.6,7,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,4
+78,A,18,Male,Mother,NA,No,10.7,6.4,77.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+79,A,13,Male,Mother,NA,Yes,11.3,5.95,67.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Standard F75,11.5,5.94,None,Yes,Yes,No,Yes,11.5,5.92,67.2,Length,None,NA,2
+80,A,82,Male,Mother,NA,No,15.5,19.66,109.5,Height,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Positive,Yes,Standard F75,15,18.76,++,Yes,Yes,No,Yes,15,19.6,109.5,Length,+,NA,3
+81,A,78,Male,Mother,NA,No,12.5,11.98,98,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+82,A,45,Male,Mother,NA,No,14.1,9.95,86.2,Length,+,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-02-01,Negative,Yes,Modified F75 (intervention),14.5,9.42,None,Yes,Yes,No,Yes,14.6,9.5,86.2,Length,None,NA,3
+83,A,21,Male,Mother,NA,No,8.3,4.3,73,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+84,A,19,Female,Mother,NA,No,9.5,5.1,70.9,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,NA,4.9,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+85,A,66,Female,Mother,NA,No,11.5,11.6,89.5,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,14.8,11.5,++,Yes,Yes,No,Yes,14,11.15,89.5,Length,+,NA,3
+86,A,25,Male,Mother,NA,No,16.5,12.6,85.4,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+87,A,14,Female,Mother,NA,No,12.4,8.45,78.9,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,11.8,8.2,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,7
+88,A,16,Male,Mother,NA,No,11,7.85,75.4,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),11.5,7.75,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,Absconded,4
+89,A,26,Female,Mother,NA,No,10.5,5.8,69.5,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),11,5.5,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,4
+90,A,10,Female,Mother,NA,Yes,10.5,5.4,65.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Standard F75,10.5,5.5,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,2
+91,A,19,Female,Mother,NA,Yes,9.9,6,74.4,Length,+,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+92,A,20,Female,Mother,NA,No,13.1,10.25,80.9,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,12.8,10.15,+,Yes,Yes,No,Yes,12.4,9.25,80.9,Length,None,NA,5
+93,A,58,Male,Mother,NA,No,14,11.4,88,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,14.5,10.9,++,Yes,Yes,No,Yes,18.6,10,88,Length,+,NA,2
+94,A,53,Female,Mother,NA,No,11.7,9.9,80,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-02-01,Negative,Yes,Standard F75,12.5,8,+,Yes,Yes,No,Yes,11.8,7.2,80,Length,+,NA,4
+95,A,7,Male,Mother,NA,Yes,11,4.7,59.1,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Positive,No,Modified F75 (intervention),10.3,4.7,None,Yes,Yes,No,Yes,10.3,4.9,59.1,Length,None,NA,3
+96,A,8,Female,Mother,NA,Yes,8.4,3.65,61.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Positive,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+97,A,17,Female,Mother,NA,Yes,15.4,8.7,75.5,Length,+++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+99,A,7,Male,Mother,NA,Yes,6.1,3.2,59.6,Length,None,No,No,Yes,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Positive,No,Modified F75 (intervention),8.5,3.15,None,Yes,Yes,No,Yes,8.5,3.1,59.6,Length,None,NA,3
+100,A,27,Male,Mother,NA,No,13.4,10.1,83.2,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),13,10.1,++,Yes,Yes,No,Yes,13,9.2,83.2,Length,+,NA,2
+101,A,10,Female,Mother,NA,Yes,11.8,6.55,65.8,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),11.6,6.1,+,Yes,Yes,No,Yes,11.3,6.1,65.8,Length,None,NA,4
+102,A,72,Male,Mother,NA,No,12.3,9.55,89,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-02-01,Negative,Yes,Standard F75,NA,10.8,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,5
+103,A,18,Male,Mother,NA,Yes,11.4,6.55,71.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.3,6.15,+,Yes,Yes,No,Yes,11.2,6.1,71.6,NA,None,NA,3
+104,A,33,Male,Mother,NA,No,11,7.3,79.3,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.2,7.1,None,Yes,Yes,No,Yes,11,6.9,79.5,Length,None,NA,2
+105,A,30,Female,Mother,NA,No,11,5.65,69.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,11.8,6,None,Yes,Yes,No,Yes,12,6,69.1,Length,None,NA,3
+106,A,29,Male,Mother,NA,No,11.9,7.9,81.6,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,12,7.8,None,Yes,Yes,No,Yes,12,8,82,Length,None,NA,4
+107,A,19,Female,Mother,NA,No,12.4,9.3,81.3,Length,+++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),12.3,8.95,+,Yes,Yes,No,Yes,12.3,9,81.3,NA,None,NA,3
+108,A,24,Female,Mother,NA,No,11.8,7.6,72,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,Yes,Standard F75,11.6,7.25,+,Yes,Yes,No,Yes,12.8,7.65,72,NA,None,NA,1
+109,A,12,Female,Mother,NA,Yes,7.2,3.1,57.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),8.6,NA,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,4
+110,A,23,Male,Mother,NA,No,14.5,11.2,82.5,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,14.3,11.3,+,Yes,Yes,No,Yes,14.3,10.65,82.5,Length,+,NA,2
+111,A,14,Male,Mother,NA,No,12.6,5.85,69.1,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-02-01,Positive,No,Modified F75 (intervention),12.6,5.9,None,Yes,Yes,No,Yes,12,5.65,68,Length,None,NA,3
+112,A,12,Female,Mother,NA,Yes,12,6.55,67.5,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,11.8,6.5,++,Yes,Yes,No,Yes,12,6.5,67.5,Length,+,NA,2
+113,A,19,Female,Other,Aunt,No,11,6.3,73.1,Length,+,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),10.8,6.1,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,4
+114,A,19,Male,Mother,NA,Yes,11.5,7.55,77.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.6,7.45,None,Yes,Yes,No,Yes,11.8,7.4,77.5,Length,None,NA,4
+115,A,27,Female,Mother,NA,No,12,7.8,75,Length,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,12.2,7.6,+,Yes,Yes,No,Yes,12.6,7.35,75,Length,+,NA,11
+116,A,25,Male,Mother,NA,No,14.5,10.3,79,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,14.3,9.4,++,Yes,Yes,No,Yes,14.2,9.65,79,Length,None,NA,2
+117,A,21,Female,Mother,NA,Yes,9.7,5.6,71,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,2015-03-01,Positive,No,Standard F75,10.1,5.8,None,Yes,Yes,No,Yes,10.3,5.9,72.2,Length,None,NA,6
+118,A,43,Female,Mother,NA,No,14.6,12.15,86.5,Length,++,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,Yes,Modified F75 (intervention),14.4,10.7,+,Yes,Yes,No,Yes,14.1,10.9,86.5,Length,+,NA,8
+119,A,19,Male,Mother,NA,No,11.1,8.7,83.9,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,Yes,Standard F75,11.4,8.45,++,Yes,Yes,No,Yes,11.6,8,83.9,Length,+,NA,3
+120,A,24,Female,Mother,NA,No,9.5,6,71.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),9.2,5.4,None,Yes,Yes,No,Yes,9.2,5.4,71.8,Length,None,NA,6
+121,A,23,Female,Mother,NA,No,11.5,7.5,76,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),11,7.4,+,Yes,Yes,No,Yes,11,6.95,76,Length,None,NA,2
+122,A,7,Male,Mother,NA,Yes,9,2.7,54,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Standard F75,7.8,2.6,None,Yes,Yes,No,Yes,8.1,2.25,54,Length,None,NA,3
+123,A,56,Male,Mother,NA,No,11,15.1,107.4,Height,None,No,No,No,No,No,Yes,No,No,Yes,No,No,No,No,2015-03-01,Negative,No,Standard F75,12.1,14.6,None,Yes,Yes,No,Yes,12.1,14.6,107.4,Height,None,NA,2
+124,A,15,Male,Mother,NA,No,12.5,9.4,80,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,12,8.7,+,Yes,Yes,No,Yes,11.6,8.5,80,Length,None,NA,5
+125,A,11,Female,Mother,NA,Yes,12.5,6.9,69.5,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),12,6.8,None,Yes,Yes,No,Yes,12,6.7,69.3,Length,None,NA,3
+126,A,47,Female,Mother,NA,No,9.2,6.55,99.6,Length,++,No,Yes,No,No,No,No,No,Yes,No,No,No,No,No,2015-03-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,withdrawn due to protocol violation,999
+127,A,24,Female,Mother,NA,No,11.9,8.95,80.5,Length,++,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,11.5,8.22,None,Yes,Yes,No,Yes,11.5,7.95,80.5,Length,None,NA,5
+128,A,25,Female,Mother,NA,Yes,12.6,8.35,73.2,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),12.3,8.12,+,Yes,Yes,No,Yes,12.1,7.65,73.8,Length,None,NA,4
+129,A,24,Female,Mother,NA,No,10.9,8.2,78.3,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),11,7.76,++,Yes,Yes,No,Yes,10.7,7.2,78,Length,+,NA,4
+130,A,13,Female,Mother,NA,No,11.1,6.25,72.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.1,6.25,None,Yes,Yes,No,Yes,11.1,5.95,72.1,Length,None,NA,3
+131,A,23,Female,Mother,NA,No,10.5,6,76.5,Length,None,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.5,6.1,None,Yes,Yes,No,Yes,9.6,5.9,77.1,Length,None,NA,3
+132,A,8,Male,Mother,NA,Yes,10.7,5.3,67.5,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),10.7,5.4,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,7
+133,A,28,Female,Mother,NA,No,12.2,7.3,79.2,Length,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-03-01,Positive,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+134,A,45,Male,Mother,NA,No,9.2,6.2,79.9,Length,+,Yes,Yes,Yes,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+135,A,15,Female,Mother,NA,Yes,11.4,6.05,71.9,Length,+,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+136,A,20,Female,Mother,NA,No,9.8,6.7,76.8,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,No,Standard F75,9.6,6.05,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,8
+137,A,21,Male,Mother,NA,No,10.6,7.1,78.4,Length,+,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),10.4,6.78,None,Yes,Yes,No,Yes,10.4,6.82,78.5,Length,None,NA,2
+138,A,20,Male,Mother,NA,No,10.7,7.65,81.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Modified F75 (intervention),10.5,7.34,None,Yes,Yes,No,Yes,10.5,7.28,81.5,Length,None,NA,2
+139,A,18,Female,Mother,NA,No,11.3,6.88,74.3,Length,++,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,10.2,6.35,None,Yes,Yes,No,Yes,10.6,6.35,74,Length,None,NA,4
+140,A,26,Female,Mother,NA,No,11.3,6.9,79.4,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.6,6.95,None,Yes,Yes,No,Yes,10.8,7.1,80,Length,NA,NA,2
+141,A,19,Female,Mother,NA,No,11.3,6.45,75.6,Length,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,11.4,6.8,None,Yes,Yes,No,Yes,11.3,6.65,75.5,Length,None,NA,3
+142,A,27,Male,Mother,NA,No,12.5,10.05,82.6,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+143,A,27,Female,Mother,NA,No,13.7,7.9,75.1,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),12.9,7.7,++,Yes,Yes,No,Yes,13.4,7.9,75,Length,None,NA,5
+144,A,56,Male,Mother,NA,No,10.8,11.1,93.3,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,No,Standard F75,11.6,10.85,None,Yes,Yes,No,Yes,11.2,10.1,93.5,Length,None,NA,2
+145,A,12,Female,Mother,NA,Yes,9.1,5,62.9,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),9,5.2,None,Yes,Yes,No,Yes,9.8,5.1,63,Length,None,NA,3
+146,A,25,Male,Mother,NA,No,11.6,8.6,80.5,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),11.3,8.6,+,Yes,Yes,No,Yes,11.6,8.8,80.5,Length,+,NA,2
+147,A,23,Female,Mother,NA,No,12.2,6.75,73.7,Length,None,No,Yes,No,No,No,Yes,No,No,Yes,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),11.6,7.47,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,9
+148,A,54,Male,Mother,NA,No,8,5.4,75.1,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,2015-03-01,Positive,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+149,A,38,Male,Mother,NA,No,12.8,9,87.1,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,Yes,Modified F75 (intervention),12.4,8.85,None,Yes,Yes,No,Yes,12.8,9.4,87.3,Length,None,NA,2
+150,A,25,Female,Mother,NA,No,12.5,9.25,79.1,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,12.3,8.7,++,Yes,Yes,No,Yes,12,8.35,79,Length,+,NA,2
+151,A,18,Male,Mother,NA,Yes,10.6,6,70.1,Length,None,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.6,6.1,None,Yes,Yes,No,Yes,11.6,6.35,70.5,Length,None,NA,2
+152,A,22,Female,Mother,NA,Yes,11.4,6.95,75.1,Length,None,No,No,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,2015-03-01,Positive,No,Modified F75 (intervention),11.3,6.8,None,Yes,Yes,No,Yes,11.6,7,74.7,Length,None,NA,2
+153,A,9,Female,Mother,NA,Yes,9.5,4.5,63.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),9.5,4.45,None,Yes,Yes,No,Yes,9.2,4.3,64,Length,None,NA,2
+154,A,19,Female,Mother,NA,No,10.3,7,72.1,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,10.1,6.1,+,Yes,Yes,No,Yes,10,6.05,72.1,Length,None,NA,2
+155,A,15,Male,Mother,NA,No,12.6,8.75,80,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),12,8.1,++,Yes,Yes,No,Yes,12,7.7,80.1,Length,None,NA,4
+156,A,10,Male,Mother,NA,No,11.1,5.15,65.6,Length,None,No,No,Yes,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.4,5.38,None,Yes,Yes,No,Yes,11.6,5.35,65.6,Length,None,NA,5
+157,A,69,Male,Mother,NA,No,12.2,11.45,90.6,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,12,11.7,+++,Yes,Yes,No,Yes,12,9.5,90.6,Length,None,NA,1
+158,A,42,Male,Mother,NA,No,12.3,9.3,83.6,Length,++,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),12.1,8.75,++,Yes,Yes,No,Yes,12,8.58,83.8,Length,None,NA,2
+159,A,9,Male,Mother,NA,Yes,11.5,5.8,67,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.3,5.9,None,Yes,Yes,No,Yes,11.4,5.8,67.1,Length,None,NA,2
+160,A,9,Female,Mother,NA,Yes,10.6,5.2,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.5,5.5,None,Yes,Yes,No,Yes,10.3,5.35,66.1,Length,None,NA,3
+161,A,26,Male,Mother,NA,No,11.1,10.15,83.5,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),9.4,7.4,None,Yes,Yes,No,Yes,9.7,7.8,83.5,Length,None,NA,12
+162,A,65,Female,Mother,NA,No,12.6,14.3,105.3,Length,++,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,12.5,14.4,+,Yes,Yes,No,Yes,11.9,13.25,105.3,Length,None,NA,1
+163,A,11,Female,Mother,NA,Yes,7.7,4.55,65.5,Length,None,No,No,No,No,No,Yes,No,No,No,Yes,No,No,Yes,2015-04-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+164,A,20,Female,Mother,NA,Yes,11,6.6,74.1,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Modified F75 (intervention),11.2,6.7,None,Yes,Yes,No,Yes,12,6.7,74,Length,None,NA,2
+165,A,35,Male,Mother,NA,No,14.5,13.8,84,Length,+++,No,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,14.8,12.05,+,Yes,Yes,No,Yes,14.4,11.4,84.6,Length,None,NA,4
+166,A,30,Male,Mother,NA,No,11.2,7.3,80,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-04-01,Positive,No,Standard F75,10.6,7.25,None,Yes,Yes,No,Yes,10.4,7.4,80.1,Length,None,NA,3
+167,A,35,Male,Mother,NA,No,12.3,9.55,85,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,11.9,9.78,++,Yes,Yes,No,Yes,12,9.05,85,Length,None,NA,3
+168,A,20,Male,Mother,NA,No,13,9.35,78.1,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,12.5,8.8,+,Yes,Yes,No,Yes,12.9,9.9,78.4,Length,None,NA,2
+169,A,16,Female,Mother,NA,No,12.1,7.1,74.1,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),12,6.78,None,Yes,Yes,No,Yes,12.6,6.9,74.2,Length,None,NA,2
+170,A,8,Female,Mother,NA,Yes,9.9,4.8,61.9,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),10,4.9,None,Yes,Yes,No,Yes,10.2,5.6,62,NA,None,NA,10
+171,A,18,Female,Mother,NA,No,14.5,9.4,76.3,Length,+++,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,14,8.75,None,Yes,Yes,No,Yes,14,8.75,76.4,Length,None,NA,3
+172,A,21,Male,Grandparent,NA,No,10.6,6.7,76.1,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Positive,No,Modified F75 (intervention),10.6,6.5,None,Yes,Yes,No,Yes,10.6,6.58,76.2,Length,None,NA,9
+173,A,12,Male,Mother,NA,Yes,10.4,5.5,67.3,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-04-01,Positive,No,Modified F75 (intervention),NA,5.65,None,Yes,Yes,Yes,No,NA,NA,NA,NA,NA,died,11
+174,A,23,Male,Mother,NA,No,13.7,9.4,77.7,Length,++,No,No,Yes,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,13.4,8.8,+,Yes,Yes,No,Yes,12.1,8.75,77.7,Length,None,NA,3
+175,A,27,Male,Mother,NA,No,13.7,12.15,80,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,11.4,13.4,++,Yes,Yes,No,Yes,14.2,11.1,80.1,Length,+,NA,2
+176,A,9,Female,Mother,NA,Yes,11.2,5.2,65.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.4,5.5,None,Yes,Yes,No,Yes,11.6,5.6,65.3,Length,None,NA,3
+177,A,13,Male,Other,Elder sister to mother,No,10.4,6.7,68.6,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,10.5,6.4,+,Yes,Yes,No,Yes,10.5,6.5,68.5,Length,None,NA,4
+178,A,32,Female,Mother,NA,No,14.8,13.3,95.1,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+179,A,64,Male,Mother,NA,No,9.9,6.8,82.9,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Standard F75,9.8,7.05,None,Yes,Yes,No,Yes,9.4,7,82.9,Length,None,NA,4
+181,A,27,Male,Mother,NA,No,11.1,8.1,78.7,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-04-01,Positive,Yes,Modified F75 (intervention),10.5,7.9,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Voluntary withdrawal,2
+182,A,11,Female,Mother,NA,Yes,11.2,5.9,68.4,Length,None,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.6,5.95,None,Yes,Yes,No,Yes,11.6,6,68.4,Length,None,NA,3
+183,A,27,Male,Mother,NA,Yes,14.2,6.6,72.1,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),12.4,7.55,++,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+184,A,19,Male,Mother,NA,Yes,9.7,5.25,70.1,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Positive,No,Standard F75,10.2,6.03,None,Yes,Yes,No,Yes,10.2,6.2,70.1,Length,None,NA,3
+185,A,15,Female,Mother,NA,No,14.1,8,72.5,Length,+++,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),12.6,7.36,++,Yes,Yes,No,Yes,11,6.65,72.4,Length,+,NA,6
+186,A,39,Male,Mother,NA,No,12.4,10.6,91.1,Length,+++,No,No,No,No,No,No,Yes,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),12,10.85,++,Yes,Yes,No,Yes,12.2,11,91,Length,++,NA,2
+187,A,22,Female,Mother,NA,No,11.3,8.05,81.3,Length,None,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.8,7.65,None,Yes,Yes,No,Yes,11.3,7.35,81.3,Length,None,NA,8
+188,A,27,Male,Mother,NA,No,9.9,6.9,79.2,Length,++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-04-01,Positive,Yes,Standard F75,9.3,7.7,None,Yes,Yes,No,Yes,9.6,6.55,79.1,Length,None,NA,2
+189,A,10,Female,Mother,NA,Yes,10.7,5,63.2,Length,None,No,No,No,No,No,No,Yes,No,No,No,No,No,No,2015-04-01,Positive,No,Standard F75,10.7,5.1,None,Yes,Yes,No,Yes,11,5.1,63.3,Length,None,NA,3
+190,A,22,Male,Mother,NA,Yes,12.5,9.5,78.4,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),13.8,9,None,Yes,Yes,No,Yes,12,8.8,78.4,Length,None,NA,2
+191,A,28,Female,Mother,NA,No,12.3,10.2,80.5,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),12.1,9.65,++,Yes,Yes,No,Yes,12.3,8.85,81.2,Length,+,NA,3
+192,A,18,Female,Mother,NA,No,12,9,77.4,Length,+,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),12.1,8.4,+,Yes,Yes,No,Yes,12.3,8,77.3,Length,None,NA,4
+193,A,19,Female,Mother,NA,Yes,11.5,6.5,74.4,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.4,6.65,None,Yes,Yes,No,Yes,11.5,6.6,74.5,Length,None,NA,2
+194,A,23,Female,Mother,NA,No,12,9.65,79.7,Length,+++,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,11.9,9,++,Yes,Yes,No,Yes,12.1,8.5,79.5,Length,None,NA,2
+195,A,19,Male,Mother,NA,No,10,6.5,74.1,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+196,A,19,Male,Mother,NA,No,14.8,10.45,77.7,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,14.2,9.8,None,Yes,Yes,No,Yes,14.6,9.45,77.7,Length,None,NA,5
+197,A,34,Female,Mother,NA,No,10,7.55,80.4,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),9.8,7.25,None,Yes,Yes,No,Yes,9.8,6.85,80.4,Length,None,NA,4
+198,A,12,Male,Mother,NA,Yes,12.5,7,74.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),12.5,7.2,None,Yes,Yes,No,Yes,12,7.05,75,Length,None,NA,4
+199,A,34,Male,Mother,NA,No,11,9.8,85.1,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),10.8,9.4,None,Yes,Yes,No,Yes,11.1,9.45,85.1,Length,None,NA,3
+200,A,16,Female,Mother,NA,No,9,4.5,67.1,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Modified F75 (intervention),9.6,4.7,None,Yes,Yes,No,Yes,10,4.8,67.1,Length,None,NA,3
+201,A,66,Male,Mother,NA,No,13.6,13,96.5,Length,+++,No,Yes,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),12.3,12.62,+,Yes,Yes,No,Yes,13,11.86,96.6,Length,+,NA,8
+202,A,7,Female,Mother,NA,Yes,7.1,3.4,57.4,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,Yes,Yes,2015-05-01,Negative,No,Standard F75,8.4,7.3,None,Yes,Yes,No,Yes,8.1,3.6,57.4,Length,None,NA,4
+203,A,22,Male,Mother,NA,Yes,10.3,4.9,69.9,Length,++,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+204,A,18,Female,Mother,NA,No,12.1,6.55,75.3,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.8,7.3,None,Yes,Yes,No,Yes,11.9,7.3,75.4,Length,None,NA,2
+205,A,16,Female,Mother,NA,Yes,10.6,4.85,61.3,Length,None,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.7,4.8,None,Yes,Yes,No,Yes,10.5,4.75,NA,Length,None,NA,2
+206,A,32,Male,Mother,NA,No,8.2,5.1,73.2,Length,+,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-05-01,Negative,Yes,Standard F75,9.6,5.45,None,Yes,Yes,No,Yes,9.4,5.5,73.2,Length,None,NA,10
+207,A,14,Male,Mother,NA,Yes,11.9,5.4,65.5,Length,None,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,2015-05-01,Negative,No,Modified F75 (intervention),12.4,5.8,None,Yes,Yes,No,Yes,12.2,5.6,65.4,Length,None,NA,8
+208,A,20,Female,Mother,NA,No,11,6.5,73,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11,6.6,None,Yes,Yes,No,Yes,11,6.5,73,Length,None,NA,2
+209,A,10,Female,Mother,NA,Yes,10.6,5.6,64,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,No,Standard F75,10.8,5.9,None,Yes,Yes,No,Yes,10.5,5.85,64,Length,None,NA,3
+210,A,30,Male,Mother,NA,No,9.4,7,79,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Standard F75,9.3,6.9,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,2
+211,A,60,Male,Mother,NA,No,12.4,13.65,96.9,Length,+++,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Modified F75 (intervention),12.2,12.6,None,Yes,Yes,No,Yes,11.3,12.3,96.5,Length,None,NA,6
+212,A,27,Female,Mother,NA,Yes,14,10,83,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+213,A,55,Female,Mother,NA,No,10.2,9.6,98.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.3,9.45,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,7
+214,A,12,Female,Mother,NA,No,9.1,4.9,69.2,Length,+,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,Yes,2015-05-01,Negative,Yes,Standard F75,9.9,5.2,None,Yes,Yes,No,Yes,9.8,5.2,69.2,Length,None,NA,6
+215,A,25,Male,Mother,NA,Yes,11.4,6.75,76,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,No,Standard F75,12.1,7.2,None,Yes,Yes,No,Yes,12,7.35,76,Length,None,NA,5
+216,A,10,Male,Mother,NA,Yes,9.2,5.5,63.5,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Standard F75,9.2,5.1,None,Yes,Yes,No,Yes,9.1,5.1,63,Length,None,NA,2
+217,A,36,Female,Mother,NA,No,14.1,13.3,90.1,Length,+++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),13.8,12.9,++,Yes,Yes,No,Yes,14.3,12.9,90.1,Length,None,NA,4
+218,A,18,Male,Mother,NA,Yes,10.5,5.8,67.2,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-05-01,Negative,No,Modified F75 (intervention),10.6,5.75,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,7
+219,A,32,Female,Mother,NA,No,12.7,8.35,77,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+220,A,24,Male,Other,AUNT,No,9.3,5.2,70.5,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Standard F75,9.2,4.9,None,Yes,Yes,No,Yes,8.7,4.55,70.4,Length,None,NA,6
+221,A,45,Male,Mother,NA,No,12,9.15,88.1,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Standard F75,12,9,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,Voluntary withdrawal,7
+222,A,21,Female,Mother,NA,Yes,13,8.5,73.1,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),12.6,7.85,None,Yes,Yes,No,Yes,13,7.9,73.2,Length,None,NA,6
+223,A,38,Male,Mother,NA,No,14.3,11.2,79.1,Length,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),14,9.45,None,Yes,Yes,No,Yes,13.1,9.45,83,Length,None,NA,6
+224,A,10,Male,Mother,NA,Yes,12.2,6.2,66,Length,++,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Standard F75,12.3,6.15,None,Yes,Yes,No,Yes,12.3,6.65,66.1,Length,None,NA,5
+225,A,13,Male,Mother,NA,No,10.9,5.05,66.1,Length,++,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),10,5,None,Yes,Yes,No,Yes,10,4.9,66.1,Length,None,NA,3
+226,A,19,Male,Other,AUNT,No,13.4,9.95,78,Length,+++,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Standard F75,11.1,7.85,++,Yes,Yes,No,Yes,11.1,7.69,78,Length,None,NA,3
+227,A,11,Male,Mother,NA,Yes,10.9,5.45,67.3,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,10.7,6,None,Yes,Yes,No,Yes,10.7,6.25,67.3,Length,None,NA,3
+228,A,27,Female,Mother,NA,No,10.8,8.55,81.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.3,8.3,None,Yes,Yes,No,Yes,10.8,8.3,72.5,Length,None,NA,2
+229,A,19,Male,Mother,NA,Yes,9.8,6.9,72.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-05-01,Negative,No,Standard F75,9.5,7,None,Yes,Yes,No,Yes,9.8,6.95,73,Length,None,NA,3
+230,A,20,Female,Mother,NA,Yes,12.5,10.3,83.1,Length,+++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+231,A,22,Male,Mother,NA,No,12,8.3,77.5,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+232,A,21,Male,Mother,NA,No,10.3,5.68,68,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-05-01,Negative,No,Standard F75,10.4,5.8,None,Yes,Yes,No,Yes,10.5,5.55,68.1,Length,None,NA,2
+233,A,49,Male,Mother,NA,No,10.2,7,81.4,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-05-01,Negative,No,Standard F75,10.6,7.4,None,Yes,Yes,No,Yes,10.1,7.2,81.4,Length,None,NA,3
+487,B,19,Male,Mother,NA,No,10.6,6.61,69.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,11,6.52,None,Yes,Yes,No,Yes,10.8,6.62,70,Length,None,NA,2
+488,B,7,Female,Mother,NA,Yes,10.5,4.86,61,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Other,999
+489,B,8,Female,Mother,NA,Yes,11.8,5.86,67,Length,None,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),11.6,5.84,None,Yes,Yes,Yes,Yes,11.8,6,65.5,Length,None,NA,4
+490,B,12,Male,Mother,NA,No,13,7.25,73.2,Length,None,No,No,Yes,No,No,Yes,No,No,No,No,No,No,No,2014-12-01,Positive,No,Standard F75,12.4,7.3,None,Yes,Yes,No,Yes,13.2,7.28,73.6,Length,None,NA,2
+491,B,62,Male,Mother,NA,No,12.8,9.32,95.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Unknown,No,Standard F75,12.4,9.7,None,Yes,Yes,No,Yes,13.6,10.4,95.8,Length,None,NA,2
+492,B,7,Female,Mother,NA,Yes,11.4,5.19,62.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+493,B,14,Male,Other,NA,No,11.2,5.8,68.2,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Positive,No,Modified F75 (intervention),11.4,6.14,None,Yes,Yes,No,Yes,11.4,5.7,68.7,Length,None,NA,2
+494,B,18,Female,Mother,NA,No,12,7.66,78.8,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+495,B,101,Female,Mother,NA,No,10.5,11.96,106,Length,+,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2014-12-01,Positive,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+496,B,15,Male,Mother,NA,Yes,12.4,7.62,78,Length,None,Yes,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,12.2,7.8,None,Yes,Yes,No,Yes,12.5,7.82,78.5,Length,None,NA,2
+497,B,12,Female,Mother,NA,Yes,11.3,6.7,69,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Modified F75 (intervention),11.4,6.62,None,Yes,Yes,Yes,No,NA,NA,NA,NA,NA,Other,3
+498,B,8,Male,Mother,NA,Yes,11,6.08,NA,NA,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+499,B,14,Male,Mother,NA,Yes,11.6,7.3,75.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Modified F75 (intervention),12.2,7.38,None,Yes,Yes,No,Yes,12.5,7.6,76,Length,None,NA,1
+500,B,18,Female,Other,NA,No,11.7,7.44,77.3,Length,None,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,11.5,7.45,None,Yes,Yes,No,Yes,12,8.14,77.5,Length,None,NA,6
+501,B,62,Male,Mother,NA,No,12.5,11.7,98.7,Length,None,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Standard F75,12.3,11.65,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,1
+502,B,8,Female,Mother,NA,Yes,10,5.3,68.3,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Modified F75 (intervention),10.2,5.38,None,Yes,Yes,No,Yes,10.8,5.76,67.4,Length,None,NA,3
+503,B,10,Female,Mother,NA,No,11.2,5.24,63.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2014-12-01,Unknown,No,Modified F75 (intervention),11.4,5.6,None,Yes,Yes,No,Yes,11.4,5.74,62.5,Length,None,NA,3
+504,B,15,Female,Mother,NA,Yes,10.7,6.26,73.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Standard F75,10.9,6.4,None,Yes,Yes,Yes,Yes,10.9,6.58,73.6,Length,None,NA,2
+505,B,16,Male,Mother,NA,Yes,12.7,6.74,73,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Unknown,No,Standard F75,12.7,6.84,None,Yes,Yes,Yes,Yes,12.5,7.02,72.3,Length,None,NA,3
+506,B,8,Male,Mother,NA,Yes,11.2,5.68,63.4,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Standard F75,11.3,5.78,None,Yes,Yes,No,Yes,11.3,5.52,64.5,Length,None,NA,3
+507,B,9,Female,Mother,NA,Yes,11.2,5.52,64.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Unknown,No,Modified F75 (intervention),11.5,5.45,None,Yes,Yes,No,Yes,11,5.5,64.8,Length,None,NA,3
+508,B,22,Female,Mother,NA,No,9,6.11,77.3,Length,None,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),9,5.82,None,Yes,Yes,Yes,No,NA,NA,NA,NA,NA,died,4
+509,B,7,Female,Mother,NA,Yes,11.5,5.56,66.5,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Unknown,No,Modified F75 (intervention),11.2,5.66,None,Yes,Yes,No,Yes,11.6,5.82,66.5,Length,None,NA,3
+510,B,7,Female,Mother,NA,Yes,11.2,5.18,64.3,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Unknown,No,Modified F75 (intervention),11.5,5.36,None,Yes,Yes,No,Yes,10.8,4.88,63.1,Length,None,NA,14
+511,B,8,Male,Mother,NA,Yes,11.2,6,65.5,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,11.2,5.68,None,Yes,Yes,No,Yes,11.6,5.74,65.6,Length,None,NA,2
+512,B,10,Male,Mother,NA,Yes,11.2,6.5,71.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Unknown,No,Modified F75 (intervention),11.5,7,None,Yes,Yes,No,Yes,13,7.5,71.3,Length,None,NA,2
+513,B,10,Male,Mother,NA,Yes,12.6,6.68,69.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Unknown,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+514,B,7,Male,Mother,NA,Yes,11.5,6.9,70.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,12.2,7.32,None,Yes,Yes,No,Yes,12,7.6,72.1,Length,None,NA,6
+515,B,11,Male,Mother,NA,Yes,11.4,5.36,66,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,11,5.38,None,Yes,Yes,No,Yes,11,5.84,67.2,Length,None,NA,5
+516,B,25,Female,Mother,NA,No,9.8,4.04,NA,NA,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,Yes,Standard F75,9.9,4.16,+,Yes,Yes,No,Yes,9.5,4.36,NA,NA,None,NA,6
+517,B,6,Male,Mother,NA,Yes,11.2,5,61.2,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Unknown,No,Modified F75 (intervention),11.5,5.1,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,1
+518,B,26,Female,Mother,NA,No,9.5,6.34,70.6,Length,None,No,No,No,No,No,No,No,No,Yes,No,No,No,No,2015-01-01,Positive,No,Standard F75,10.3,6.08,None,Yes,Yes,No,Yes,11.2,6.34,71.3,Length,None,NA,3
+519,B,13,Female,Other,NA,No,10.5,5.56,70.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Positive,No,Standard F75,10.7,5.74,None,Yes,Yes,No,Yes,10.7,6.08,70.3,Length,None,NA,2
+520,B,9,Male,Mother,NA,Yes,11.2,6.42,68.8,Length,None,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.2,6.26,None,Yes,Yes,No,Yes,11.4,6.72,69,Length,None,NA,2
+521,B,9,Female,Mother,NA,Yes,11,6.1,72.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.2,6.08,None,Yes,Yes,No,Yes,11.4,6.42,72.9,Length,None,NA,2
+522,B,13,Female,Mother,NA,Yes,11.4,6.58,69.5,Length,None,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.5,6.54,None,Yes,Yes,No,Yes,11.3,6.8,69.5,Length,None,NA,1
+523,B,30,Female,Mother,NA,No,11.2,7.98,80.1,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Unknown,Yes,Standard F75,10.8,7.6,+,Yes,Yes,No,Yes,11.4,8.04,80.3,Length,None,NA,3
+524,B,20,Male,Mother,NA,Yes,10,4.74,78,Length,+,Yes,No,No,Yes,No,No,No,No,No,Yes,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),8.2,4.88,None,Yes,Yes,No,Yes,9,5.6,77.4,Length,None,NA,3
+525,B,8,Male,Mother,NA,Yes,11.4,6.34,67.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.5,6.12,None,Yes,Yes,No,Yes,11.5,6.22,68,Length,None,NA,6
+526,B,24,Female,Mother,NA,No,9.6,5.74,72.4,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),9.8,5.78,None,Yes,Yes,No,Yes,9.8,6.12,72.6,Height,None,NA,2
+527,B,13,Female,Mother,NA,Yes,11.2,5.64,68.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.4,5.86,None,Yes,Yes,No,Yes,12,5.9,68.5,Length,None,NA,2
+528,B,27,Male,Mother,NA,No,12.1,9.08,84.9,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,12.1,9.38,None,Yes,Yes,No,Yes,11.9,9.38,85.3,Length,None,NA,5
+529,B,86,Female,Mother,NA,No,11.4,14.3,106.7,Height,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Unknown,Yes,Standard F75,11.4,14.4,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+530,B,20,Female,Mother,NA,No,11.4,6.6,73,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,11.3,6.56,None,Yes,Yes,No,Yes,11.6,7.3,73.3,Length,None,NA,2
+531,B,10,Male,Mother,NA,No,11,6.68,68.6,Length,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Unknown,Yes,Modified F75 (intervention),11.6,6.4,+,Yes,Yes,No,Yes,10.2,6.48,69.8,Length,None,NA,3
+532,B,12,Female,Mother,NA,No,11.4,6.26,69.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Modified F75 (intervention),11.7,6.28,None,Yes,Yes,No,Yes,11.5,6.56,70,Length,None,NA,1
+533,B,10,Female,Mother,NA,Yes,10.8,5.74,69.6,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,11.2,6.38,None,Yes,Yes,Yes,Yes,11.5,6.48,70.8,Length,None,NA,11
+534,B,7,Female,Other,CARER AT CHILDREN HOME,No,11.2,6.5,70.1,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,11.4,6.44,None,Yes,Yes,No,Yes,12.4,6.82,70.4,Length,None,NA,2
+535,B,7,Male,Mother,NA,No,11,4.4,58.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Standard F75,11.3,4.68,None,Yes,Yes,No,Yes,12.5,5.1,59.4,Length,None,NA,3
+536,B,9,Female,Mother,NA,Yes,10.3,5.32,67.2,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),10.5,5.68,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+537,B,11,Male,Mother,NA,No,8.5,4.34,61.1,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Modified F75 (intervention),8.4,4.18,None,Yes,Yes,No,Yes,9.6,4.5,63.8,Length,None,NA,4
+538,B,8,Male,Mother,NA,Yes,11,6.38,68.5,Length,None,Yes,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+539,B,11,Male,Mother,NA,Yes,12.2,6.8,72.2,Length,None,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),13,7.02,None,Yes,Yes,Yes,Yes,12.8,7.32,74.5,Length,None,NA,4
+540,B,9,Female,Mother,NA,Yes,10.3,4.96,63.1,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),10.9,5.14,None,Yes,Yes,No,Yes,11.5,5.42,63.5,Length,None,NA,3
+541,B,7,Male,Mother,NA,No,11,5.38,64.3,Length,None,No,Yes,No,No,Yes,No,No,No,No,No,No,No,Yes,2015-02-01,Negative,No,Standard F75,11.2,5.6,None,Yes,Yes,No,Yes,13.1,6.08,63.5,Length,None,NA,2
+542,B,14,Male,Mother,NA,Yes,11.6,7,76.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.5,6.88,None,Yes,Yes,No,Yes,12,7.16,76.5,Length,None,NA,6
+543,B,10,Male,Mother,NA,Yes,11,5.52,65.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11,5.64,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,2
+544,B,11,Female,Mother,NA,Yes,11.4,7,73.4,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,11.7,6.84,None,Yes,Yes,No,Yes,12.6,7.2,71.4,Length,None,NA,2
+545,B,27,Male,Mother,NA,No,11.3,9.94,88.3,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,11,9.82,+,Yes,Yes,No,Yes,11.1,8.86,88.3,Length,+,NA,3
+546,B,17,Female,Mother,NA,Yes,11.7,6.94,75,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,11.9,7,None,Yes,Yes,No,Yes,12.3,7.16,75.1,Length,None,NA,2
+547,B,10,Female,Mother,NA,No,8.2,4,62.4,Length,+,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),8.5,3.98,+,Yes,Yes,No,Yes,8.8,4.38,62.5,Length,None,NA,3
+548,B,10,Male,Mother,NA,Yes,11.5,6.42,69.4,Length,None,No,No,No,No,No,Yes,No,No,Yes,Yes,No,No,No,2015-02-01,Negative,No,Standard F75,12,6.82,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,3
+549,B,19,Female,Mother,NA,No,10.9,6.42,72.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,11.2,6.68,None,Yes,Yes,No,Yes,12.5,7.28,73.3,Length,None,NA,1
+550,B,13,Male,Mother,NA,No,12.3,6.44,65.7,Length,++,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-02-01,Unknown,Yes,Modified F75 (intervention),12.3,6.4,+,Yes,Yes,No,Yes,12.5,6.9,67.7,Length,None,NA,2
+551,B,8,Female,Mother,NA,Yes,9,4.16,59,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-02-01,Negative,No,Modified F75 (intervention),10.5,4.58,None,Yes,Yes,Yes,Yes,10.6,4.76,61.1,Length,None,NA,7
+552,B,6,Male,Mother,NA,Yes,10,4.58,62.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,10.4,4.68,None,Yes,Yes,No,Yes,9.7,4.36,62.6,Length,None,NA,4
+553,B,6,Male,Mother,NA,Yes,11.2,6,65.2,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.5,5.88,None,Yes,Yes,No,Yes,11.5,6.14,65.6,Length,None,NA,5
+554,B,6,Male,Mother,NA,No,10.2,4.78,60.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,10.2,4.7,None,Yes,Yes,No,Yes,10.9,5.2,60.9,Length,None,NA,1
+555,B,11,Male,Mother,NA,Yes,11.7,6.84,71.5,Length,None,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.6,6.82,None,Yes,Yes,Yes,Yes,12.3,6.9,71.9,Length,None,NA,5
+556,B,22,Female,Mother,NA,Yes,11.6,6.82,77.4,Length,None,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.6,6.94,None,Yes,Yes,Yes,Yes,11.6,6.84,78,Length,None,NA,6
+557,B,6,Female,Mother,NA,Yes,10.2,4.98,63.5,Length,None,Yes,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,10.6,5.24,None,Yes,Yes,No,Yes,10.6,5.46,64.9,Length,None,NA,3
+558,B,6,Male,Mother,NA,Yes,11.7,6.18,68.5,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,11.7,6.2,None,Yes,Yes,Yes,Yes,11.4,6.42,69,Length,None,NA,6
+559,B,21,Male,Mother,NA,No,11.5,7.9,83,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11.4,8.08,None,Yes,Yes,No,Yes,11.5,8.32,83.5,Length,None,NA,3
+560,B,14,Male,Mother,NA,Yes,11.7,7.6,77.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-02-01,Negative,No,Modified F75 (intervention),11.8,7.6,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,2
+561,B,10,Female,Mother,NA,Yes,11,5.46,67.2,Length,None,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,11.2,5.74,None,Yes,Yes,No,Yes,11.7,5.92,71.9,Length,None,NA,4
+562,B,7,Male,Mother,NA,Yes,10.2,5.56,70,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,10.5,5.52,None,Yes,Yes,No,Yes,11.2,6.04,71,Length,None,NA,3
+563,B,54,Female,Mother,NA,No,9.5,8.88,90.8,Height,+,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Standard F75,10,8.28,None,Yes,Yes,No,Yes,9.5,8.6,91.1,Height,None,NA,3
+564,B,85,Male,Mother,NA,No,10.3,12.16,111.6,Height,None,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,2015-02-01,Positive,No,Modified F75 (intervention),9.8,11.46,None,Yes,Yes,No,Yes,10.6,11.98,111.8,Height,None,NA,5
+565,B,10,Male,Mother,NA,Yes,10.5,6.22,69.4,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),10.9,6.26,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Voluntary withdrawal,6
+566,B,8,Male,Mother,NA,Yes,10.5,5.54,59.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-02-01,Negative,No,Standard F75,10.5,5.6,None,Yes,Yes,No,Yes,11.5,5.94,59.5,Length,None,NA,1
+567,B,12,Female,Mother,NA,Yes,11.3,6.64,71,Length,None,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.4,6.66,None,Yes,Yes,No,Yes,12.2,6.74,71.2,Length,None,NA,1
+568,B,16,Female,Mother,NA,Yes,10.2,5.6,68,Length,None,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.4,6.06,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,1
+569,B,7,Female,Mother,NA,No,9.8,4.92,63.7,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),10,5.02,None,Yes,Yes,No,Yes,11,5.54,64.3,Length,None,NA,4
+570,B,46,Female,Mother,NA,No,11.1,8.44,90.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Standard F75,11.5,9.1,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,6
+571,B,9,Male,Mother,NA,Yes,9,4.32,67.2,Length,None,No,No,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,2015-03-01,Positive,No,Standard F75,9.2,4.46,None,Yes,Yes,No,Yes,9.2,4.76,67.6,Length,None,NA,3
+572,B,8,Male,Mother,NA,No,11.8,6.7,69.7,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+573,B,15,Female,Mother,NA,Yes,8,3.96,64.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Modified F75 (intervention),8,3.84,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,2
+574,B,54,Female,Mother,NA,No,11,9.28,88.1,Length,None,No,No,No,No,No,No,No,No,No,No,No,Yes,No,2015-03-01,Negative,No,Standard F75,12.2,9.42,None,Yes,Yes,Yes,Yes,12.4,9.24,88.3,Height,None,NA,10
+575,B,8,Female,Mother,NA,Yes,11.2,6.26,70.9,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Voluntary withdrawal,999
+576,B,10,Male,Grandparent,NA,No,10.8,5.16,64.6,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Unknown,No,Modified F75 (intervention),10.8,5.56,None,Yes,Yes,No,Yes,11.4,5.78,65.1,Length,None,NA,3
+577,B,11,Male,Mother,NA,Yes,9,5.36,69.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),9.3,5.6,None,Yes,Yes,No,Yes,11,6.26,69.4,Length,None,NA,2
+578,B,34,Male,Mother,NA,No,9,5.22,70.8,Length,None,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,2015-03-01,Negative,No,Modified F75 (intervention),9.2,5.16,None,Yes,Yes,No,Yes,9.8,5.2,71,Length,None,NA,4
+579,B,14,Female,Mother,NA,Yes,11.7,6.84,76,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,12,7.06,None,Yes,Yes,No,Yes,12.2,7.38,76.2,Length,None,NA,3
+580,B,10,Female,Mother,NA,Yes,9.9,4.44,64.3,Length,None,No,No,No,Yes,No,No,No,No,Yes,Yes,No,No,No,2015-03-01,Negative,No,Standard F75,10,4.68,None,Yes,Yes,No,Yes,10.6,5.42,65.3,Length,None,NA,3
+581,B,10,Male,Mother,NA,No,11,6.12,68,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+582,B,11,Male,Mother,NA,Yes,12,6.26,70,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Standard F75,12.3,6.5,None,Yes,Yes,No,Yes,12,6.72,69.6,Length,None,NA,3
+583,B,12,Female,Mother,NA,Yes,11,5.64,69.8,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,Yes,2015-03-01,Positive,No,Modified F75 (intervention),10.8,5.32,None,Yes,Yes,No,Yes,11.2,5.72,70,Length,None,NA,7
+584,B,21,Female,Mother,NA,No,11,6.66,75,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11,7.06,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,2
+585,B,7,Male,Mother,NA,No,9.1,4.28,59.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Standard F75,9.4,4.18,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,4
+586,B,24,Male,Other,Maternal Uncle,No,13,11.52,90.6,Length,+++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,12,11.02,++,Yes,Yes,Yes,Yes,12,10.8,90.2,Length,None,NA,10
+587,B,13,Male,Mother,NA,Yes,10.5,5.6,68.6,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11,5.38,None,Yes,Yes,No,Yes,10.5,NA,69,Length,None,NA,2
+588,B,24,Male,Mother,NA,No,10.3,7.42,77,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),10.5,7.54,None,Yes,Yes,No,Yes,10,7.18,77,Length,None,NA,2
+589,B,7,Female,Mother,NA,Yes,11.2,5.7,66.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11,5.6,None,Yes,Yes,No,Yes,11.6,5.74,67,Length,None,NA,3
+590,B,7,Male,Mother,NA,No,11.2,5.92,69.6,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.5,6,None,Yes,Yes,No,Yes,12,6.52,68.9,Length,None,NA,3
+591,B,14,Female,Mother,NA,Yes,9,4.74,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Modified F75 (intervention),9.3,5.12,None,Yes,Yes,No,Yes,8.4,4.42,66.3,Length,None,NA,3
+592,B,10,Female,Mother,NA,Yes,10.8,5.22,63.6,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+593,B,21,Female,Mother,NA,Yes,12,7.08,77.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.9,7.38,None,Yes,Yes,No,Yes,12.2,7.66,76.8,Length,None,NA,2
+594,B,14,Male,Mother,NA,Yes,10.8,6.98,74,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.8,7.18,None,Yes,Yes,No,Yes,11.2,7.76,73.3,Length,None,NA,1
+595,B,10,Female,Mother,NA,Yes,12,5.74,67.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),12.4,5.9,None,Yes,Yes,No,Yes,11.2,5.6,67,Length,None,NA,3
+596,B,11,Male,Mother,NA,Yes,11.3,5.3,74.2,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.5,5.7,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,3
+597,B,6,Male,Mother,NA,Yes,11,5.58,66.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),10.8,5.74,None,Yes,Yes,No,Yes,11.3,5.78,67.2,Length,None,NA,3
+598,B,14,Male,Mother,NA,Yes,11,7.42,76.7,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.2,7.6,None,Yes,Yes,No,Yes,11.5,7.88,77,Length,None,NA,2
+599,B,14,Female,Mother,NA,No,11.5,7.86,73,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Standard F75,12,8.42,+,Yes,Yes,No,No,NA,NA,NA,NA,NA,Absconded,3
+600,B,11,Female,Mother,NA,Yes,10.5,6.04,71.7,Length,None,No,No,Yes,Yes,No,No,No,No,No,Yes,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),10.8,6.22,None,Yes,Yes,No,Yes,NA,6,NA,NA,None,NA,4
+601,B,7,Female,Mother,NA,Yes,11.5,5.17,66.4,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.4,5.08,None,Yes,Yes,No,Yes,10.7,5,66.8,Length,None,NA,7
+602,B,11,Female,Mother,NA,No,10.9,7.3,75.2,Length,None,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,2015-03-01,Unknown,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+603,B,10,Male,Mother,NA,Yes,10,5.08,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Standard F75,10,4.92,None,Yes,Yes,No,Yes,9.2,4.88,65,Length,None,NA,9
+604,B,16,Female,Mother,NA,Yes,10.6,5.94,68.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.5,5.98,None,Yes,Yes,No,Yes,11.8,6.12,68.2,Length,None,NA,2
+605,B,11,Female,Mother,NA,No,10.2,5.72,70.2,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),10,5.68,None,Yes,Yes,No,Yes,9.4,5.44,71.4,Length,None,NA,3
+606,B,8,Male,Mother,NA,Yes,10.8,5.02,62,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Standard F75,10.9,5.18,None,Yes,Yes,No,Yes,11,5.24,62.6,Length,None,NA,2
+607,B,30,Male,Mother,NA,No,11.5,8.36,87.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.3,8.32,None,Yes,Yes,No,Yes,11.7,8.6,88,Length,None,NA,5
+608,B,12,Male,Mother,NA,No,10.6,6.08,75.8,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,10.5,6.56,None,Yes,Yes,No,Yes,10.6,6.74,76,Length,None,NA,3
+609,B,6,Male,Mother,NA,Yes,11.2,5.16,64.2,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,10.5,4.84,None,Yes,Yes,No,Yes,10.8,4.82,65.1,Length,None,NA,7
+610,B,12,Female,Mother,NA,Yes,11.3,6.78,69.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.3,6.9,None,Yes,Yes,No,Yes,13.6,7.26,71.1,Length,None,NA,1
+611,B,11,Female,Mother,NA,Yes,10.7,5,67.5,Length,None,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,2015-04-01,Positive,No,Modified F75 (intervention),10.5,5.2,None,Yes,Yes,No,Yes,11.7,5.42,67.7,Length,None,NA,4
+612,B,22,Male,Mother,NA,No,10.8,7.1,76.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Standard F75,10.7,7.32,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,6
+613,B,11,Female,Mother,NA,Yes,11,6.92,72.8,Length,None,Yes,Yes,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Positive,No,Standard F75,12.5,7.28,None,Yes,Yes,Yes,No,NA,NA,NA,NA,NA,Other,7
+614,B,14,Female,Mother,NA,Yes,9,4.34,62.6,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,9,4.58,None,Yes,Yes,No,Yes,9.5,4.96,63,Length,None,NA,4
+615,B,6,Male,Mother,NA,Yes,11.2,5.76,66.9,Length,None,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.3,5.94,None,Yes,Yes,No,Yes,11.6,6.12,66.8,Length,None,NA,3
+616,B,8,Male,Mother,NA,Yes,11.7,5.86,69.3,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Modified F75 (intervention),11.5,5.9,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,5
+617,B,9,Male,Mother,NA,Yes,11.2,5.88,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.2,6.02,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,4
+618,B,7,Male,Mother,NA,Yes,11.2,5.56,66.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.3,5.92,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,2
+619,B,22,Male,Mother,NA,No,11.3,7.42,77.4,Length,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Positive,Yes,Standard F75,11.2,7.34,+,Yes,Yes,No,Yes,11.7,8.08,77.7,Length,None,NA,2
+620,B,24,Female,Mother,NA,No,11,6.88,77.8,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Modified F75 (intervention),11.2,6.72,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,3
+621,B,12,Male,Mother,NA,Yes,11.8,6.42,71,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.6,6.3,None,Yes,Yes,No,Yes,12.5,6.8,69.5,Length,None,NA,2
+622,B,38,Female,Other,Cousin,No,13.5,9.88,92.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,13.6,10.24,None,Yes,Yes,No,Yes,12.4,10.46,69.1,Length,None,NA,3
+623,B,7,Male,Mother,NA,Yes,10,5.16,64.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),10.5,5.2,None,Yes,Yes,Yes,No,NA,NA,NA,NA,NA,Other,3
+624,B,9,Female,Mother,NA,Yes,10.8,5.52,66.2,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Other,999
+625,B,7,Male,Mother,NA,Yes,10.2,5.88,66.8,Length,+,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Other,999
+626,B,7,Male,Mother,NA,Yes,10.8,5.48,67.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Other,999
+627,B,48,Male,Other,Aunty,No,12.4,10.9,97,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Other,999
+628,B,12,Male,Mother,NA,Yes,7.6,4.24,67.2,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Standard F75,7.8,4.48,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,2
+629,B,7,Male,Mother,NA,Yes,11.3,5.7,63.1,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.5,5.88,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,1
+630,B,11,Male,Mother,NA,Yes,10.2,5.12,65.2,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-04-01,Negative,No,Modified F75 (intervention),10.5,5.2,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,2
+631,B,9,Male,Mother,NA,No,11.5,6.12,67.8,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.4,6.08,None,Yes,Yes,No,Yes,11.5,6.4,67.5,Length,None,NA,1
+632,B,12,Male,Mother,NA,Yes,11.5,6.2,70.5,Length,None,No,No,Yes,No,Yes,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.5,6.2,None,Yes,Yes,No,Yes,11.5,6.28,71,Length,None,NA,2
+633,B,21,Female,Mother,NA,Yes,11.8,6.68,74,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),12,6.86,None,Yes,Yes,Yes,Yes,13.1,7.12,74.2,Length,None,NA,7
+634,B,10,Female,Mother,NA,Yes,11,5.84,71.1,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11,5.64,None,Yes,Yes,No,Yes,11.1,5.92,71.4,Length,None,NA,4
+635,B,8,Female,Mother,NA,Yes,9.5,4.38,63,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),9.2,4.22,None,Yes,Yes,No,Yes,9.7,4.62,61.2,Length,None,NA,3
+636,B,9,Female,Mother,NA,No,11.2,6.18,71,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.7,6.18,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Other,2
+637,B,6,Male,Mother,NA,Yes,11.2,5.52,64.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.1,5.42,None,Yes,Yes,No,Yes,11.5,5.82,65.5,Length,None,NA,2
+638,B,8,Female,Mother,NA,Yes,10.6,5.2,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,10.3,5.06,None,Yes,Yes,No,Yes,10.8,5.38,66.2,Length,None,NA,3
+639,B,14,Female,Mother,NA,Yes,10.8,6.16,71.3,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.3,6.52,None,Yes,Yes,No,Yes,11.7,6.66,72.6,Length,None,NA,2
+640,B,14,Female,Mother,NA,Yes,11.5,6.52,71.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),11.9,6.56,None,Yes,Yes,No,Yes,12,6.78,72.8,Length,None,NA,2
+641,B,26,Female,Mother,NA,Yes,12,7.08,75,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.5,6.8,None,Yes,Yes,No,Yes,11.9,7.16,75,Length,None,NA,3
+642,B,27,Male,Mother,NA,No,11.5,6.26,71.7,Length,None,No,No,No,Yes,Yes,No,No,No,No,No,No,No,Yes,2015-05-01,Negative,No,Modified F75 (intervention),12,6.62,None,Yes,Yes,No,Yes,12.5,7.08,71.7,Length,None,NA,3
+643,B,65,Female,Mother,NA,No,11.2,10.78,92.2,Length,None,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),11.3,11.08,None,Yes,Yes,No,Yes,11.7,11.58,92.8,Height,None,NA,2
+644,B,10,Male,Mother,NA,No,9.5,4.72,65.2,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Modified F75 (intervention),9.5,4.88,None,Yes,Yes,No,Yes,9.5,5.06,65,Length,None,NA,2
+645,B,17,Male,Mother,NA,Yes,12,7.98,80.2,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),12.3,7.7,None,Yes,Yes,Yes,Yes,12.6,8.04,80,Length,None,NA,2
+646,B,9,Male,Mother,NA,Yes,11,5.52,67.7,Length,None,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2015-05-01,Negative,No,Standard F75,11.8,5.54,None,Yes,Yes,No,Yes,10.8,5.48,68,Length,None,NA,6
+647,B,6,Male,Mother,NA,Yes,11,6.02,66.4,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Modified F75 (intervention),11,6.14,None,Yes,Yes,No,Yes,11.5,6.28,67.3,Length,None,NA,2
+648,B,6,Male,Mother,NA,Yes,11,5.36,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.5,5.76,None,Yes,Yes,No,Yes,11.5,5.58,66.5,Length,None,NA,4
+649,B,10,Male,Mother,NA,Yes,10,5.02,67.5,Length,None,Yes,No,Yes,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,10.5,5.7,None,Yes,Yes,Yes,Yes,10.7,5.88,67.5,Length,None,NA,6
+650,B,13,Female,Mother,NA,No,11.6,6.14,71.6,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Standard F75,12.2,6.9,None,Yes,Yes,No,Yes,11,5.86,71.9,Length,None,NA,3
+651,B,19,Female,Mother,NA,No,11.8,7.82,73.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),11.9,7.48,+,Yes,Yes,No,Yes,10.2,6.68,74,Length,None,NA,6
+652,B,10,Male,Mother,NA,No,12,5.22,67.4,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11,5.62,+,Yes,Yes,No,Yes,12.2,5.58,67.6,Length,None,NA,5
+653,B,7,Male,Mother,NA,Yes,12.5,6.74,69.8,Length,None,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),12,6.58,None,Yes,Yes,No,Yes,12.4,6.82,70,Length,None,NA,3
+654,B,74,Female,Other,AUNT,No,13.5,13.36,108.5,Height,None,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Modified F75 (intervention),13.1,12.96,None,Yes,Yes,No,Yes,13.8,14.1,109,Height,None,NA,2
+655,B,15,Male,Mother,NA,Yes,12.2,7.7,75.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.9,7.64,None,Yes,Yes,No,Yes,12.3,8.02,75.8,Length,None,NA,2
+656,B,20,Male,Mother,NA,No,13,7.96,78.6,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),13,7.96,None,Yes,Yes,No,Yes,13.5,7.94,78.7,Length,None,NA,2
+657,B,16,Female,Mother,NA,Yes,12.4,7.1,74.2,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.9,6.7,None,Yes,Yes,No,Yes,12.5,7.02,74.5,Length,None,NA,4
+658,B,12,Male,Mother,NA,Yes,12.4,6.26,70,Length,None,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,12.4,6.24,None,Yes,Yes,No,Yes,12,6.3,70.2,Length,None,NA,2
+659,B,8,Female,Grandparent,NA,No,9.8,4.4,58.3,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,10,4.26,None,Yes,Yes,No,Yes,10.5,4.76,58,Length,None,NA,1
+660,B,24,Male,Mother,NA,No,10.5,6.2,72,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.5,6.34,None,Yes,Yes,Yes,Yes,11,6.7,73,Length,None,NA,2
+661,B,24,Male,Mother,NA,Yes,11.2,6.64,73.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),11.2,6.62,None,Yes,Yes,No,Yes,12,6.98,73.5,Length,None,NA,2
+662,B,16,Female,Mother,NA,Yes,10.8,6.4,72.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.3,6.24,None,Yes,Yes,No,Yes,11.7,6.58,72.6,Length,None,NA,3
+663,B,6,Female,Mother,NA,No,10.7,5,65.3,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Unknown,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+664,B,7,Female,Mother,NA,Yes,11.4,5.22,65.8,Length,None,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Unknown,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+665,B,9,Female,Mother,NA,Yes,10,5.04,71,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.6,5.42,None,Yes,Yes,Yes,Yes,11.5,6,71.1,Length,None,NA,3
+666,B,6,Female,Mother,NA,Yes,10.5,4.84,63.7,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Unknown,No,Standard F75,10.4,5.06,None,Yes,Yes,No,Yes,11.2,5.56,64,Length,None,NA,2
+667,B,25,Male,Mother,NA,No,10.8,7.1,75.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,Yes,No,2015-05-01,Negative,No,Modified F75 (intervention),10.8,7.26,None,Yes,Yes,No,Yes,12.6,8.48,75.7,Length,None,NA,2
+668,B,9,Male,Mother,NA,No,8.1,3.98,62.3,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,8.3,4.18,None,Yes,Yes,No,Yes,8.5,4.64,63.1,Length,None,NA,3
+669,B,9,Male,Mother,NA,No,11,6.34,68.2,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),11,6.38,None,Yes,Yes,No,Yes,11.4,6.84,68.6,Length,None,NA,1
+909,C,21,Female,Mother,NA,No,11.3,7.62,76.6,Length,+,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2014-12-01,Positive,Yes,Standard F75,11,7.62,+,Yes,Yes,No,Yes,11.2,7.83,76.8,Length,None,NA,2
+910,C,21,Male,Mother,NA,Yes,11.8,6.22,72,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Negative,No,Modified F75 (intervention),11.8,6.89,None,Yes,Yes,No,Yes,11.6,6.9,72.3,Length,None,NA,3
+911,C,12,Female,Mother,NA,Yes,8.2,4,61,Length,None,No,Yes,Yes,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Negative,No,Standard F75,8.9,4.12,None,Yes,Yes,No,Yes,10.2,5.18,61.6,Length,None,NA,5
+912,C,9,Male,Mother,NA,Yes,10.2,6.05,65.5,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,Yes,Yes,2014-12-01,Negative,No,Standard F75,10.6,4.93,None,Yes,Yes,No,Yes,10.5,5.03,65.7,Length,None,NA,3
+913,C,25,Male,Grandparent,NA,Yes,10,6.25,72.5,Length,None,No,No,Yes,No,Yes,No,No,No,No,No,No,Yes,Yes,2014-12-01,Negative,No,Modified F75 (intervention),9.4,6.46,None,Yes,Yes,No,Yes,11,6.51,72.9,Length,None,NA,3
+914,C,7,Female,Mother,NA,Yes,11,4.6,58.6,Length,None,No,Yes,No,No,No,Yes,No,No,No,No,No,No,Yes,2014-12-01,Negative,No,Modified F75 (intervention),11.4,4.7,None,Yes,Yes,No,Yes,11.2,4.76,59.1,Length,None,NA,2
+915,C,53,Male,Mother,NA,No,13.8,10.93,85,Height,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,Yes,2014-12-01,Negative,Yes,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,Other,999
+916,C,8,Male,Mother,NA,Yes,11,4.32,57.4,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,10.5,4.43,None,Yes,Yes,No,Yes,11.5,4.56,58.5,Length,None,NA,2
+917,C,17,Female,Mother,NA,No,9.8,5.72,70.5,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,Yes,Standard F75,9.8,5.6,+,Yes,Yes,No,Yes,10.4,5.56,70.7,Length,None,NA,1
+918,C,42,Male,Mother,NA,No,9.7,8.16,87.9,Length,None,No,Yes,No,No,No,Yes,No,No,No,No,No,No,No,2014-12-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+919,C,6,Male,Mother,NA,No,11.3,4.54,60.2,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,Yes,2014-12-01,Negative,No,Modified F75 (intervention),11,4.7,None,Yes,Yes,Yes,Yes,11,4.8,61.5,Length,None,NA,3
+920,C,16,Male,Mother,NA,Yes,9.6,5.06,70.8,Length,None,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,2014-12-01,Positive,No,Standard F75,9.4,5.64,None,Yes,Yes,Yes,Yes,10,5.94,72,Length,None,NA,3
+921,C,15,Male,Mother,NA,No,10.4,5.52,70.9,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,9.7,5.59,None,Yes,Yes,No,Yes,10.8,6.9,71.1,Length,None,NA,1
+922,C,21,Female,Mother,NA,No,10,6.47,73.4,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2014-12-01,Negative,No,Standard F75,9.8,8.25,None,Yes,Yes,No,Yes,11.5,7.38,74.3,Length,None,NA,1
+923,C,24,Female,Mother,NA,No,15,8.36,72.9,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,Yes,Modified F75 (intervention),12.4,7.38,+,Yes,Yes,No,Yes,13,7.29,73.1,Length,None,NA,4
+924,C,31,Male,Mother,NA,No,11.4,9.2,84.5,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),12.2,8.34,None,Yes,Yes,No,Yes,12.2,8.35,85.6,Length,None,NA,5
+925,C,28,Male,Mother,NA,No,10.5,8.35,86.6,Length,None,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No,2015-01-01,Negative,No,Standard F75,10.7,9.25,None,Yes,Yes,No,Yes,11.4,9.25,86.8,Length,None,NA,4
+926,C,8,Male,Mother,NA,Yes,9.8,5.02,61.7,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),10,5.16,None,Yes,Yes,Yes,Yes,10,5.38,65.6,Length,None,NA,3
+927,C,16,Female,Grandparent,NA,No,8.5,4.5,65,Height,++,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,2015-01-01,Negative,Yes,Standard F75,8.5,4.73,None,Yes,Yes,No,Yes,9.5,5.02,65.7,Length,None,NA,2
+928,C,19,Male,Mother,NA,No,10.3,5.88,70,Length,None,No,No,No,No,No,No,No,No,No,Yes,No,No,No,2015-01-01,Positive,No,Modified F75 (intervention),10.7,5.74,None,Yes,Yes,No,Yes,10.2,5.97,70,Length,None,NA,2
+929,C,13,Male,Mother,NA,No,13,6.18,71.7,Length,None,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2015-01-01,Negative,No,Standard F75,13,6.29,None,Yes,Yes,No,Yes,14.5,6.65,72.3,Length,None,NA,2
+930,C,7,Male,Mother,NA,Yes,11.3,6.2,65,Length,None,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),11.5,6.3,None,Yes,Yes,No,Yes,11.5,6.39,66.6,Length,None,NA,2
+931,C,15,Female,Mother,NA,Yes,11.6,6.03,67.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,12.1,6.2,None,Yes,Yes,No,Yes,13,6.55,68.9,Length,None,NA,6
+932,C,55,Male,Grandparent,NA,No,12,8.91,91,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,No,Modified F75 (intervention),12.4,8.87,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+933,C,43,Female,Mother,NA,No,11,9.4,90.1,Height,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+934,C,28,Female,Mother,NA,No,12,8.87,85,Height,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-01-01,Negative,Yes,Modified F75 (intervention),11.9,8.92,None,Yes,Yes,No,Yes,11.8,9.26,85.5,Height,None,NA,1
+935,C,16,Male,Mother,NA,Yes,10.4,6.03,70.7,Length,None,No,No,No,No,No,NA,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),10.5,5.97,None,Yes,Yes,No,Yes,10.4,6.03,70.7,Length,None,NA,1
+936,C,117,Female,Grandparent,NA,No,11,11.2,112,Height,None,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,2015-01-01,Positive,No,Standard F75,10.2,11.5,None,Yes,Yes,No,Yes,NA,12,NA,NA,None,NA,1
+937,C,52,Female,Mother,NA,No,13.5,11.2,99.5,Length,None,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Modified F75 (intervention),13.4,11.2,None,Yes,Yes,No,Yes,13.5,11.8,97.3,Height,None,NA,1
+938,C,78,Female,Mother,NA,No,8.7,6.8,90,Height,None,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,2015-01-01,Positive,No,Standard F75,12,8.11,None,Yes,Yes,Yes,Yes,12.3,10.34,91.2,Height,None,NA,8
+939,C,22,Female,Mother,NA,Yes,12,7.9,82.8,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-01-01,Negative,No,Standard F75,12,8,None,Yes,Yes,No,Yes,12.5,8.63,82.6,Height,None,NA,6
+940,C,26,Male,Mother,NA,No,13.9,8.21,73.8,Length,+++,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-01-01,Negative,Yes,Modified F75 (intervention),13.8,7.9,++,Yes,Yes,No,Yes,13,8.02,74.2,Length,None,NA,2
+941,C,30,Male,Mother,NA,No,11,7.54,79,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+942,C,29,Female,Mother,NA,No,11.6,5.96,71,Height,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-02-01,Negative,No,Modified F75 (intervention),11.6,6.23,None,Yes,Yes,No,Yes,11.6,6.3,73,Height,None,NA,1
+943,C,8,Female,Mother,NA,Yes,8,3.85,61.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+944,C,40,Female,Grandparent,NA,No,9,4.98,72.5,Length,+,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-02-01,Negative,Yes,Modified F75 (intervention),9.2,5.71,None,Yes,Yes,No,Yes,NA,6.28,NA,Length,None,NA,7
+945,C,6,Male,Mother,NA,Yes,11,4.11,60.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+946,C,6,Female,Grandparent,NA,No,10.5,5.49,63.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,10.6,5.73,None,Yes,Yes,Yes,Yes,10.5,5.76,65.3,Length,None,NA,19
+947,C,25,Female,Mother,NA,No,12,6.71,76,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Standard F75,12.2,6.65,None,Yes,Yes,No,Yes,11.8,7.3,76,Length,None,NA,1
+948,C,25,Female,Mother,NA,Yes,8.5,5.14,71,Length,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Positive,Yes,Standard F75,9.3,5.14,None,Yes,Yes,No,Yes,10,5.17,71.2,Length,None,NA,3
+949,C,10,Female,Mother,NA,No,10.5,4.99,60.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),11,5.1,None,Yes,Yes,No,Yes,12.5,5.85,64.5,Length,None,NA,4
+950,C,8,Female,Mother,NA,Yes,11,5.22,63.5,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,No,Modified F75 (intervention),12.1,5.68,None,Yes,Yes,No,Yes,11,5.79,63.5,Length,None,NA,7
+951,C,15,Female,Mother,NA,No,11,4.91,60,Height,None,No,No,Yes,No,No,No,No,No,No,No,No,Yes,No,2015-02-01,Negative,No,Standard F75,11,5.41,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,Absconded,5
+952,C,22,Female,Mother,NA,Yes,12,6.61,78,Length,None,No,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,No,2015-02-01,Negative,No,Standard F75,11.2,6.78,None,Yes,Yes,Yes,Yes,12,8.11,78,Length,None,NA,8
+953,C,21,Female,Mother,NA,Yes,9,4.9,68.9,Length,None,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,2015-02-01,Positive,No,Standard F75,12,5.18,None,Yes,Yes,Yes,Yes,11.9,5.2,69.1,Length,None,NA,22
+954,C,22,Female,Grandparent,NA,No,10,4.66,66.5,Length,++,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),11.5,4.51,None,Yes,Yes,No,Yes,10.2,5.44,66,Length,None,NA,5
+955,C,8,Male,Mother,NA,Yes,10.5,4.12,58.4,Length,+,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-02-01,Negative,Yes,Modified F75 (intervention),11,4.19,None,Yes,Yes,No,Yes,11.2,4.52,59.5,Length,None,NA,8
+956,C,7,Female,Mother,NA,Yes,11.2,6.61,72.7,Length,None,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,2015-03-01,Negative,No,Standard F75,11,6.58,None,Yes,Yes,No,Yes,11.4,7.33,72.7,Length,None,NA,1
+957,C,12,Female,Mother,NA,No,11.2,4.09,60.5,Height,+,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),11.1,4.3,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,3
+958,C,84,Male,Mother,NA,No,15,12.8,104.2,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Modified F75 (intervention),NA,12.1,None,Yes,Yes,No,Yes,15.4,12.7,100,Length,None,NA,3
+959,C,30,Male,Mother,NA,No,9.8,7.63,75.4,Length,+,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-03-01,Negative,Yes,Modified F75 (intervention),10.4,7.61,+,Yes,Yes,No,Yes,11,8.52,76.2,Length,None,NA,1
+960,C,11,Male,Mother,NA,No,13,5.37,63.3,Length,None,No,No,Yes,No,Yes,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),12.8,5.75,None,Yes,Yes,No,Yes,13.8,6.09,63.5,Length,None,NA,3
+961,C,6,Female,Mother,NA,Yes,11,5.31,65,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Standard F75,11.5,5.53,None,Yes,Yes,No,Yes,11.6,5.76,65.2,Length,None,NA,7
+962,C,14,Male,Mother,NA,Yes,11,7.07,74.5,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.3,7.38,None,Yes,Yes,No,Yes,11.4,7.07,74.7,Length,None,NA,4
+963,C,52,Male,Mother,NA,No,12,8.67,81.5,Height,+++,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,Yes,Standard F75,12,8.4,None,Yes,Yes,No,Yes,12,8.92,86.7,Height,None,NA,3
+964,C,17,Male,Mother,NA,Yes,12.8,6.68,71,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Standard F75,12.5,7.28,None,Yes,Yes,No,Yes,12.4,7.27,71.6,Length,None,NA,15
+965,C,14,Male,Other,Children's Home,No,11.4,6.93,68,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.6,6.32,None,Yes,Yes,No,Yes,12.5,7.41,70.5,Length,None,NA,2
+966,C,12,Female,Mother,NA,No,8.7,9.55,65,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Standard F75,8.7,4.26,None,Yes,Yes,No,Yes,9.2,4.62,66.2,Length,None,NA,2
+967,C,6,Female,Mother,NA,Yes,11,3.71,55,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),11.5,4.14,None,Yes,Yes,No,Yes,NA,4.95,NA,NA,NA,NA,1
+968,C,78,Female,Mother,NA,No,14,12.2,102.5,Height,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),13,12.4,None,Yes,Yes,No,Yes,13.5,13.1,102.7,Height,None,NA,2
+969,C,24,Female,Mother,NA,No,11,6.16,68.5,Length,+,No,No,No,Yes,Yes,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,Yes,Standard F75,11.5,6.08,None,Yes,Yes,No,Yes,11,6.27,70,Length,None,NA,8
+970,C,10,Female,Grandparent,NA,No,10.4,4.93,63.3,Length,None,Yes,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,10.5,5.4,None,Yes,Yes,No,Yes,11,5.3,66.8,Length,None,NA,13
+971,C,38,Female,Grandparent,NA,No,11,5.66,72.5,Height,+,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,Yes,Standard F75,10.1,5.37,None,Yes,Yes,No,Yes,9.4,5.26,68.5,Length,None,NA,4
+972,C,19,Male,Mother,NA,Yes,14,7.88,78,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),12.3,7.8,None,Yes,Yes,No,Yes,12.5,8.16,77.3,Length,None,NA,5
+973,C,8,Male,Mother,NA,Yes,12.8,4.8,62,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Standard F75,11.4,4.97,None,Yes,Yes,No,Yes,12,5.1,NA,NA,None,NA,4
+974,C,6,Male,Mother,NA,Yes,11,5.01,64.5,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-03-01,Positive,No,Standard F75,NA,5.25,None,Yes,Yes,No,Yes,11.4,5.59,64.8,Length,None,NA,4
+975,C,7,Female,Mother,NA,Yes,11,4.72,59,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Modified F75 (intervention),12.4,4.97,None,Yes,Yes,No,Yes,13.6,6.05,58,Length,None,NA,3
+976,C,6,Male,Mother,NA,Yes,10.5,4.46,56.2,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-03-01,Negative,No,Modified F75 (intervention),10.1,4.54,None,Yes,Yes,No,Yes,11.3,4.82,56.5,Length,None,NA,3
+977,C,59,Male,Mother,NA,No,15.5,11.5,97,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Standard F75,NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,withdrawn due to protocol violation,999
+978,C,23,Female,Mother,NA,Yes,16,9.15,89,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,2015-03-01,Negative,No,Modified F75 (intervention),13.8,9.25,None,Yes,Yes,No,Yes,13.7,9.77,89.4,Length,None,NA,3
+979,C,7,Female,Mother,NA,Yes,11.3,5.24,62.7,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.5,5.22,None,Yes,Yes,No,Yes,12.4,5.6,59,Length,None,NA,8
+980,C,151,Male,Mother,NA,No,11,14,118.5,Height,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-04-01,Positive,No,Modified F75 (intervention),11,14,None,Yes,Yes,No,Yes,11.7,14.9,119,Height,None,NA,1
+981,C,13,Male,Mother,NA,Yes,11,5.25,65,Length,None,No,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-04-01,Positive,No,Modified F75 (intervention),11.3,5.25,None,Yes,Yes,No,Yes,11,5.57,65.7,Length,None,NA,4
+982,C,48,Male,Mother,NA,Yes,11.5,7.6,84.2,Height,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,Yes,Standard F75,11.5,8.75,None,Yes,Yes,No,No,NA,NA,NA,NA,NA,died,4
+983,C,49,Male,Mother,NA,No,12.5,10.3,92.5,Height,None,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),13,11.9,None,Yes,Yes,No,Yes,14.3,12.05,92.5,Height,None,NA,4
+984,C,12,Male,Mother,NA,Yes,12,5.72,66.5,Length,None,No,No,No,No,No,No,Yes,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,12,6.15,None,Yes,Yes,No,Yes,13.2,6.57,63.5,Length,None,NA,3
+985,C,12,Male,Mother,NA,NA,13.5,7.3,76.5,Length,None,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),12.8,7.61,None,Yes,Yes,No,Yes,13.6,7.86,74,Length,None,NA,3
+986,C,10,Male,Mother,NA,Yes,11,5.44,68.2,Length,None,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),11.6,5.6,None,Yes,Yes,No,Yes,11.8,5.88,68,Length,None,NA,3
+987,C,21,Female,Mother,NA,No,13.3,5.22,66.3,Length,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Modified F75 (intervention),10.6,5.26,None,Yes,Yes,No,Yes,11.3,5.76,65,Length,None,NA,1
+988,C,27,Male,Mother,NA,No,10.4,6.67,75.5,Height,None,No,No,No,No,No,Yes,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,11.2,6.63,None,Yes,Yes,No,Yes,11.5,7.48,75.8,Length,None,NA,1
+989,C,11,Male,Mother,NA,Yes,11,5.42,69.2,Length,None,No,No,Yes,No,No,Yes,No,No,No,Yes,No,No,No,2015-05-01,Negative,No,Standard F75,11.1,5.79,None,Yes,Yes,No,Yes,11.8,5.95,68.5,Length,None,NA,4
+990,C,6,Male,Mother,NA,Yes,10,2.85,49,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-04-01,Negative,No,Standard F75,9.9,2.91,None,Yes,Yes,No,Yes,10,3.11,50.2,Length,None,NA,2
+991,C,37,Male,Mother,NA,No,12,6.31,74.5,Length,+,No,No,No,No,No,No,No,No,No,No,No,No,Yes,2015-05-01,Negative,Yes,Standard F75,11.3,6.24,++,Yes,Yes,No,Yes,11.7,6.43,74.9,Length,None,NA,3
+992,C,13,Male,Mother,NA,Yes,11,7.08,73,Length,+,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Standard F75,11,7.18,None,Yes,Yes,No,Yes,12,7.36,70,Length,None,NA,4
+993,C,20,Male,Grandparent,NA,No,11,7.1,79.7,Length,None,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.9,7.61,None,Yes,Yes,No,Yes,11.5,8.14,76.5,Length,None,NA,2
+994,C,31,Male,Mother,NA,No,9.3,6.45,75.2,Height,+,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,Yes,Modified F75 (intervention),9,5.77,None,Yes,Yes,No,Yes,9.3,6.2,74.5,Height,None,NA,10
+995,C,42,Female,Mother,NA,No,18,10.3,81.5,Height,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Standard F75,NA,NA,++,Yes,Yes,No,Yes,11.5,9.04,77.5,Length,None,NA,4
+996,C,10,Male,Mother,NA,Yes,12,5.8,67.5,Length,None,No,No,Yes,No,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),13.4,6.11,None,Yes,Yes,No,Yes,13.2,6.16,66,Length,None,NA,3
+997,C,28,Female,Mother,NA,No,11.3,7.94,79.1,Length,+++,No,No,No,No,Yes,No,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),10.3,7.63,+,Yes,Yes,No,Yes,11.5,7.98,78,Height,None,NA,7
+998,C,13,Male,Mother,NA,Yes,12.8,6.9,72,Length,None,Yes,No,No,Yes,No,Yes,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,12.9,7.07,None,Yes,Yes,No,Yes,NA,7.68,NA,NA,NA,NA,4
+999,C,34,Female,Grandparent,NA,No,11,10.33,86.1,Length,++,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,2015-05-01,Positive,Yes,Standard F75,12,10.25,None,Yes,Yes,No,Yes,12.8,10.73,84,Height,None,NA,2
+1000,C,14,Male,Mother,NA,Yes,12,7.7,71.6,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,withdrawn due to protocol violation,999
+1001,C,15,Male,Mother,NA,Yes,10.5,5.71,68.5,Length,None,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Modified F75 (intervention),11,5.79,None,Yes,Yes,No,Yes,NA,5.77,NA,NA,NA,NA,2
+1002,C,107,Female,Mother,NA,No,11.7,11.9,102,Height,None,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,2015-05-01,Positive,No,Standard F75,11.8,11.5,None,Yes,Yes,No,Yes,11.5,13,101.5,Height,None,NA,2
+1003,C,11,Female,Mother,NA,Yes,10.4,5.81,69.1,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),10.8,5.88,None,Yes,Yes,No,Yes,11.5,6.25,68.7,Length,None,NA,6
+1004,C,7,Male,Mother,NA,Yes,11.4,5.97,67,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Standard F75,11.5,6.57,None,Yes,Yes,No,Yes,11.3,6.66,67.2,Length,None,NA,10
+1005,C,37,Female,Mother,NA,No,15.3,13.3,95.5,Height,++,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,Yes,Modified F75 (intervention),15.2,14,+,Yes,Yes,No,Yes,16.5,14.6,91.5,Height,None,NA,3
+1006,C,16,Male,Mother,NA,No,12.5,5.89,66,Length,None,No,No,No,Yes,No,No,No,No,No,No,No,No,No,2015-05-01,Negative,No,Modified F75 (intervention),NA,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,died,999
+1007,C,18,Male,Mother,NA,Yes,8.5,4.75,66.5,Length,None,No,No,No,No,No,No,No,No,No,No,No,No,No,2015-05-01,Positive,No,Modified F75 (intervention),8.5,5.25,None,Yes,Yes,No,Yes,9.8,5.66,70.4,Length,None,NA,4
