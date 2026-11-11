@@ -1,0 +1,39 @@
+```{r strat-load}
+# Child section: stratified treatment-effect analysis.
+# Include from report.Rmd with:
+#   ```{r stratified, child = "report_stratified_section.Rmd"}
+#   ```
+strat <- readRDS(here::here("output", "stratified_table.rds"))
+res <- strat$results
+res$Stratum <- as.character(res$Stratum)
+```
+
+#### Treatment Effect by `r strat$stratify_by`
+
+The adjusted odds of death for the intervention arm (reference: `r strat$reference`) were estimated separately within each level of `r strat$stratify_by`, adjusting for `r paste(strat$covariates, collapse = ", ")`. The arm × `r strat$stratify_by` interaction was tested with a likelihood ratio test (p = `r sprintf("%.3f", strat$p_interaction)`).
+
+```{r strat-table}
+tab <- data.frame(
+  Stratum = res$Stratum,
+  `N (deaths)` = sprintf("%d (%d)", res$n, res$deaths),
+  `Intervention` = sprintf("%d (%d)", res$n_intervention, res$deaths_intervention),
+  `Standard` = sprintf("%d (%d)", res$n_reference, res$deaths_reference),
+  `Adjusted OR (95% CI)` = sprintf("%.2f (%.2f, %.2f)", res$OR, res$lower, res$upper),
+  `P-value` = sprintf("%.3f", res$p_value),
+  check.names = FALSE
+)
+knitr::kable(tab, align = "lccccc")
+```
+
+```{r strat-note, results = "asis"}
+if (any(res$low_events) || any(res$unstable)) {
+  cat("*Note: strata with fewer than", strat$min_events,
+      "deaths, or with model convergence warnings, give unstable estimates and should be interpreted cautiously.*\n")
+}
+```
+
+```{r strat-figure}
+#| fig.align = "center",
+#| out.width = "500px"
+knitr::include_graphics(here::here("output", "stratified_forest.png"))
+```

@@ -1,3 +1,5 @@
 *.Rproj*
 Assignments/*
 *.pdf
+.Rhistory
+*.html

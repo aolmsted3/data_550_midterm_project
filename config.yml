@@ -1,0 +1,45 @@
+# Configuration for the parameterized stratified analysis
+# (code/stratified_analysis.R and report_stratified_section.Rmd).
+# Edit values here, then re-run `make` -- no code changes needed.
+
+# ---- Data -------------------------------------------------------------
+# Currently the raw interim file. When the cleaned dataset from the
+# earlier pipeline step exists, change only this line (and the matching
+# DATA line in the Makefile).
+data_path: data/f75_interim.csv
+
+# ---- Outcome ----------------------------------------------------------
+# Binary outcome = 1 if `var` equals any value in `event_values`, else 0.
+# (Everyone else, including withdrawals/absconders, counts as non-death.)
+outcome:
+  var: withdraw2
+  event_values: ["died"]
+
+# ---- Exposure ---------------------------------------------------------
+# Treatment arm; `reference` is the reference level for the odds ratio.
+exposure:
+  var: arm
+  reference: "Standard F75"
+
+# ---- Adjustment set (matches the primary mortality model) -------------
+# If the stratifying variable is one of these (e.g. sex), it is dropped
+# from the within-stratum models automatically.
+covariates:
+  categorical: [sex, site, hiv_results]
+  continuous: [muac]
+
+# ---- THE PARAMETER: which variable defines the strata -----------------
+# One of the names under `strata:` below (sex | age_cat).
+stratify_by: age_cat
+
+strata:
+  sex:
+    var: sex
+    levels: ["Female", "Male"]   # first level = reference in interaction model
+  age_cat:
+    var: agemons
+    breaks: [0, 12, 24, .inf]    # intervals are [lower, upper)
+    labels: ["6-11 months", "12-23 months", "24+ months"]
+
+# Warn when a stratum has fewer deaths than this (estimates unstable).
+min_events_per_stratum: 10
