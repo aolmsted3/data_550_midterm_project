@@ -47,10 +47,7 @@ data <- read.csv(here::here("data/f75_interim.csv"))
 
 *Description of Data.*
 
-#### Model
 
-```{r table1}
-# Fill in code to read in regression model from output folder
+```{r stratified, child = "report_stratified_section.Rmd", echo = FALSE, eval = TRUE, warning = FALSE, message = FALSE}
 ```
-
 *Description of Data.*

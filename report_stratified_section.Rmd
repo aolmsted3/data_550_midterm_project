@@ -34,6 +34,6 @@ if (any(res$low_events) || any(res$unstable)) {
 
 ```{r strat-figure}
 #| fig.align = "center",
-#| out.width = "600px"
+#| out.width = "500px"
 knitr::include_graphics(here::here("output", "stratified_forest.png"))
 ```
