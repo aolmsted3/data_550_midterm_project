@@ -1,3 +1,7 @@
 *.Rproj*
 Assignments/*
 *.pdf
+.Rhistory
+*.html
+output/*.rds
+output/*.png

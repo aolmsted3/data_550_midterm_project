@@ -1,8 +1,9 @@
 # Build the project from the repository root with `make`.
 #
 #   make stratified   run the parameterized stratified analysis
-#   make report.pdf   render the full report (see note below)
-#   make clean        delete generated stratified outputs
+#   make              build everything and render report.html
+#   make report.html  render the full report
+#   make clean        delete generated outputs and the rendered report
 #
 # Change what is analysed by editing config.yml (e.g. stratify_by) and
 # re-running make; outputs rebuild automatically when config.yml changes.
@@ -28,7 +29,14 @@ DATA = data/f75_interim.csv
 
 .PHONY: all stratified clean doctor
 
-all: report.pdf
+all: report.html
+
+# ---- Table 1 and Table 2 (hannah) ------------------------------------------
+output/table1.rds: code/01_table1.R $(DATA)
+	$(RSCRIPT) code/01_table1.R
+
+output/table2.rds: code/02_table2.R $(DATA)
+	$(RSCRIPT) code/02_table2.R
 
 # ---- Parameterized stratified analysis (elaina) ----------------------------
 # `&:` = one run of the script produces both files (needs GNU make >= 4.3).
@@ -45,9 +53,10 @@ stratified: output/stratified_table.rds output/stratified_forest.png
 
 # ---- Report ---------------------------------------------------------------
 # Add each teammate's outputs to the prerequisites as they are created.
-report.pdf: report.Rmd report_stratified_section.Rmd code/describe_results.R \
-		output/stratified_table.rds output/stratified_forest.png
-	$(RSCRIPT) -e "rmarkdown::render('report.Rmd', output_file = 'report.pdf')"
+report.html: report.Rmd report_stratified_section.Rmd code/describe_results.R \
+		output/stratified_table.rds output/stratified_forest.png \
+		output/table1.rds output/table2.rds
+	$(RSCRIPT) -e "rmarkdown::render('report.Rmd', output_file = 'report.html')"
 
 # Troubleshooting: show which R make uses and where it looks for packages.
 doctor:
@@ -55,4 +64,4 @@ doctor:
 	$(RSCRIPT) -e "print(.libPaths()); print(Sys.getenv(c('R_LIBS_USER','LOCALAPPDATA','HOME'))); print(requireNamespace('here', quietly = TRUE))"
 
 clean:
-	$(RSCRIPT) -e "unlink(c('output/stratified_table.rds', 'output/stratified_forest.png', 'report.pdf'))"
+	$(RSCRIPT) -e "unlink(c(Sys.glob('output/*.rds'), Sys.glob('output/*.png'), 'report.html', 'report.pdf'))"
