@@ -45,7 +45,7 @@ stratified: output/stratified_table.rds output/stratified_forest.png
 
 # ---- Report ---------------------------------------------------------------
 # Add each teammate's outputs to the prerequisites as they are created.
-report.pdf: report.Rmd report_stratified_section.Rmd \
+report.pdf: report.Rmd report_stratified_section.Rmd code/describe_results.R \
 		output/stratified_table.rds output/stratified_forest.png
 	$(RSCRIPT) -e "rmarkdown::render('report.Rmd', output_file = 'report.pdf')"
 

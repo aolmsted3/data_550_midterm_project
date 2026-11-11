@@ -34,12 +34,18 @@ stratify_by: age_cat
 
 strata:
   sex:
+    label: "sex"                 # name used in the written results
     var: sex
     levels: ["Female", "Male"]   # first level = reference in interaction model
   age_cat:
+    label: "age group"           # name used in the written results
     var: agemons
     breaks: [0, 12, 24, .inf]    # intervals are [lower, upper)
     labels: ["6-11 months", "12-23 months", "24+ months"]
 
 # Warn when a stratum has fewer deaths than this (estimates unstable).
 min_events_per_stratum: 10
+
+# Significance level used ONLY to word the written results (e.g. "was /
+# was not statistically significant"). Confirm the value with your group.
+alpha: 0.05

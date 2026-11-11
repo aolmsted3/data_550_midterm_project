@@ -100,7 +100,10 @@ out <- list(
   p_interaction = p_interaction,
   stratify_by = cfg$stratify_by,
   strat_label = spec$var,
+  strat_name = if (is.null(spec$label)) cfg$stratify_by else spec$label,
   reference = cfg$exposure$reference,
+  treatment = setdiff(levels(d$arm), cfg$exposure$reference)[1],
+  alpha = cfg$alpha,
   covariates = covs,
   min_events = cfg$min_events_per_stratum
 )

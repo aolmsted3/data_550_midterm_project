@@ -6,11 +6,22 @@
 strat <- readRDS(here::here("output", "stratified_table.rds"))
 res <- strat$results
 res$Stratum <- as.character(res$Stratum)
+
+# Written summary pieces, built from the saved results (follows config.yml).
+source(here::here("code", "describe_results.R"))
+txt <- describe_results(strat)
 ```
 
-#### Treatment Effect by `r strat$stratify_by`
+#### Treatment Effect by `r strat$strat_name`
 
-The adjusted odds of death for the intervention arm (reference: `r strat$reference`) were estimated separately within each level of `r strat$stratify_by`, adjusting for `r paste(strat$covariates, collapse = ", ")`. The arm × `r strat$stratify_by` interaction was tested with a likelihood ratio test (p = `r sprintf("%.3f", strat$p_interaction)`).
+The adjusted odds of death for the `r strat$treatment` arm (reference: `r strat$reference`) were estimated separately within each `r strat$strat_name` category, adjusting for `r txt$covariates`. The arm × `r strat$strat_name` interaction was tested with a likelihood ratio test (p = `r sprintf("%.3f", strat$p_interaction)`).
+
+```{r strat-text, results = "asis"}
+cat(txt$overview, "\n\n")
+cat("Treatment effect within each ", strat$strat_name, " category:\n\n", sep = "")
+cat(paste0("- ", txt$strata), sep = "\n")
+cat("\n\n", txt$interaction, "\n\n", txt$caveat, "\n\n", sep = "")
+```
 
 ```{r strat-table}
 tab <- data.frame(
