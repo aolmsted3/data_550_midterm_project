@@ -2,7 +2,7 @@
 title: "Midterm Project Report - f75 Analysis"
 author: "Allison Olmsted, Hannah Posluszny, Elaina Sinclair"
 date: "`r Sys.Date()`"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, echo = FALSE, eval = TRUE, warning = FALSE, message = FALSE}
@@ -18,8 +18,7 @@ opts_chunk$set(
 
 ## Introduction
 
-#### Data Description
-The f75 dataset comes from a randomized trial testing whether a modified milk formula (f75) improves outcomes for children with severe acute malnutrition (first 6-months of data from year-long study). This report *...*
+The f75 dataset comes from a randomized trial testing whether a modified milk formula (f75) improves outcomes for children with severe acute malnutrition (first 6-months of data from year-long study). This report describes baseline characteristics and estimates the association between mortality and treatment using regression. Stratified analyses are presented by age group or sex.
 
 ```{r load-data}
 data <- read.csv(here::here("data/f75_interim.csv"))
@@ -27,27 +26,27 @@ data <- read.csv(here::here("data/f75_interim.csv"))
 
 ## Results
 
-#### Enrollment Characteristics
+#### Baseline Characteristics
 
 ```{r table1}
-# Fill in code to read in Table 1 from output folder
+table_one <- readRDS(
+  file = here::here("output/table1.rds")
+)
+table_one
 ```
 
-*Description of Data.*
+*Hannah to insert description of baseline analysis*
 
-#### Outcomes
+#### Mortality by Treatment Arm
 
-```{r figure}
-#| fig.align = "center",
-#| out.width = "700px"
-
-# Fill in code to read in Bar Chart/Figure from output folder
-
+```{r table2}
+table_two <- readRDS(
+  file = here::here("output/table2.rds")
+)
+table_two
 ```
 
-*Description of Data.*
-
+*Hannah to insert description of regression analysis.*
 
 ```{r stratified, child = "report_stratified_section.Rmd", echo = FALSE, eval = TRUE, warning = FALSE, message = FALSE}
 ```
-*Description of Data.*

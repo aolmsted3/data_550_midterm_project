@@ -30,6 +30,13 @@ DATA = data/f75_interim.csv
 
 all: report.pdf
 
+# ---- Parameterized stratified analysis (hannah) ----------------------------
+output/table1.rds: code/01_table1.R $(DATA)
+	$(RSCRIPT) code/01_table1.R
+
+output/table2.rds: code/02_table2.R $(DATA)
+	$(RSCRIPT) code/02_table2.R
+
 # ---- Parameterized stratified analysis (elaina) ----------------------------
 # `&:` = one run of the script produces both files (needs GNU make >= 4.3).
 output/stratified_table.rds output/stratified_forest.png &: \
@@ -45,9 +52,10 @@ stratified: output/stratified_table.rds output/stratified_forest.png
 
 # ---- Report ---------------------------------------------------------------
 # Add each teammate's outputs to the prerequisites as they are created.
-report.pdf: report.Rmd report_stratified_section.Rmd \
-		output/stratified_table.rds output/stratified_forest.png
-	$(RSCRIPT) -e "rmarkdown::render('report.Rmd', output_file = 'report.pdf')"
+report.html: report.Rmd report_stratified_section.Rmd \
+		output/stratified_table.rds output/stratified_forest.png \
+		output/table1.rds output/table2.rds
+	$(RSCRIPT) -e "rmarkdown::render('report.Rmd', output_file = 'report.html')"
 
 # Troubleshooting: show which R make uses and where it looks for packages.
 doctor:
@@ -55,4 +63,4 @@ doctor:
 	$(RSCRIPT) -e "print(.libPaths()); print(Sys.getenv(c('R_LIBS_USER','LOCALAPPDATA','HOME'))); print(requireNamespace('here', quietly = TRUE))"
 
 clean:
-	$(RSCRIPT) -e "unlink(c('output/stratified_table.rds', 'output/stratified_forest.png', 'report.pdf'))"
+	$(RSCRIPT) -e "unlink('output', recursive = TRUE); file.create('output/.gitkeep'); unlink('report.pdf')"
