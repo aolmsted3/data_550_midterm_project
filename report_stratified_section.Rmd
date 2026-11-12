@@ -12,7 +12,7 @@ source(here::here("code", "describe_results.R"))
 txt <- describe_results(strat)
 ```
 
-#### Treatment Effect by `r strat$strat_name`
+### Treatment Effect by `r strat$strat_name`
 
 The adjusted odds of death for the `r strat$treatment` arm (reference: `r strat$reference`) were estimated separately within each `r strat$strat_name` category, adjusting for `r txt$covariates`. The arm × `r strat$strat_name` interaction was tested with a likelihood ratio test (p = `r sprintf("%.3f", strat$p_interaction)`).
 
@@ -45,6 +45,6 @@ if (any(res$low_events) || any(res$unstable)) {
 
 ```{r strat-figure}
 #| fig.align = "center",
-#| out.width = "500px"
+#| out.width = "800px"
 knitr::include_graphics(here::here("output", "stratified_forest.png"))
 ```

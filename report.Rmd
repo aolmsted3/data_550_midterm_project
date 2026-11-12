@@ -24,9 +24,11 @@ The f75 dataset comes from a randomized trial testing whether a modified milk fo
 data <- read.csv(here::here("data/f75_interim.csv"))
 ```
 
+
 ## Results
 
-#### Baseline Characteristics
+
+### Baseline Characteristics
 
 ```{r table1}
 table_one <- readRDS(
@@ -34,11 +36,13 @@ table_one <- readRDS(
 )
 table_one
 ```
+
 Baseline characteristics were summarized by treatment arm (modified F75 vs. standard F75) among `r nrow(data)` children with severe acute malnutrition. Of these, `r sum(data$arm == "Modified F75 (intervention)", na.rm = TRUE)` received modified F75 and `r sum(data$arm == "Standard F75", na.rm = TRUE)` received standard F75.
 
 Continuous variables (age, MUAC, weight, and length/height) are presented as mean (SD), while categorical variables (sex, study site, oedema, HIV status, and kwashiorkor) are presented as n (%). Missing observations are indicated where applicable.
 
-#### Mortality by Treatment Arm
+
+### Mortality by Treatment Arm
 
 ```{r table2}
 table_two <- readRDS(
@@ -46,6 +50,7 @@ table_two <- readRDS(
 )
 table_two
 ```
+
 Logistic regression was used to examine the association between F75 treatment arm and mortality. Mortality was defined as a recorded death during the study period. Participants with documented non-death outcomes were classified as not having a recorded death.
 
 The unadjusted model included treatment arm as the sole predictor. The adjusted model included treatment arm, age, sex, study site, baseline MUAC, and HIV status. Standard F75 served as the reference treatment group. Results are presented as odds ratios (ORs), 95% confidence intervals (CIs), and p-values.
